@@ -1,0 +1,989 @@
+[
+  {
+    "marketId": "a-lot",
+    "marketName": "A lot",
+    "count": 10,
+    "data": [
+      {
+        "commodity": "Wheat",
+        "arrivalDate": "29/10/2025",
+        "variety": "Wheat",
+        "state": "Madhya Pradesh",
+        "district": "Ratlam",
+        "market": "A lot",
+        "minPrice": "Rs 2469 / Quintal",
+        "maxPrice": "Rs 2500 / Quintal",
+        "avgPrice": "Rs 2500 / Quintal"
+      },
+      {
+        "commodity": "Maize",
+        "arrivalDate": "29/10/2025",
+        "variety": "Local",
+        "state": "Madhya Pradesh",
+        "district": "Ratlam",
+        "market": "A lot",
+        "minPrice": "Rs 1660 / Quintal",
+        "maxPrice": "Rs 1660 / Quintal",
+        "avgPrice": "Rs 1660 / Quintal"
+      },
+      {
+        "commodity": "Soyabean",
+        "arrivalDate": "29/10/2025",
+        "variety": "Soyabeen",
+        "state": "Madhya Pradesh",
+        "district": "Ratlam",
+        "market": "A lot",
+        "minPrice": "Rs 3680 / Quintal",
+        "maxPrice": "Rs 4094 / Quintal",
+        "avgPrice": "Rs 4094 / Quintal"
+      },
+      {
+        "commodity": "Garlic",
+        "arrivalDate": "29/10/2025",
+        "variety": "Garlic",
+        "state": "Madhya Pradesh",
+        "district": "Ratlam",
+        "market": "A lot",
+        "minPrice": "Rs 500 / Quintal",
+        "maxPrice": "Rs 2500 / Quintal",
+        "avgPrice": "Rs 500 / Quintal"
+      },
+      {
+        "commodity": "Maize",
+        "arrivalDate": "28/10/2025",
+        "variety": "Local",
+        "state": "Madhya Pradesh",
+        "district": "Ratlam",
+        "market": "A lot",
+        "minPrice": "Rs 1400 / Quintal",
+        "maxPrice": "Rs 1673 / Quintal",
+        "avgPrice": "Rs 1673 / Quintal"
+      },
+      {
+        "commodity": "Garlic",
+        "arrivalDate": "28/10/2025",
+        "variety": "Desi",
+        "state": "Madhya Pradesh",
+        "district": "Ratlam",
+        "market": "A lot",
+        "minPrice": "Rs 1500 / Quintal",
+        "maxPrice": "Rs 1500 / Quintal",
+        "avgPrice": "Rs 1500 / Quintal"
+      },
+      {
+        "commodity": "Onion",
+        "arrivalDate": "28/10/2025",
+        "variety": "Onion",
+        "state": "Madhya Pradesh",
+        "district": "Ratlam",
+        "market": "A lot",
+        "minPrice": "Rs 200 / Quintal",
+        "maxPrice": "Rs 750 / Quintal",
+        "avgPrice": "Rs 491 / Quintal"
+      },
+      {
+        "commodity": "Soyabean",
+        "arrivalDate": "28/10/2025",
+        "variety": "Soyabeen",
+        "state": "Madhya Pradesh",
+        "district": "Ratlam",
+        "market": "A lot",
+        "minPrice": "Rs 3410 / Quintal",
+        "maxPrice": "Rs 4344 / Quintal",
+        "avgPrice": "Rs 4250 / Quintal"
+      },
+      {
+        "commodity": "Garlic",
+        "arrivalDate": "28/10/2025",
+        "variety": "Garlic",
+        "state": "Madhya Pradesh",
+        "district": "Ratlam",
+        "market": "A lot",
+        "minPrice": "Rs 499 / Quintal",
+        "maxPrice": "Rs 5100 / Quintal",
+        "avgPrice": "Rs 500 / Quintal"
+      },
+      {
+        "commodity": "Wheat",
+        "arrivalDate": "28/10/2025",
+        "variety": "Wheat",
+        "state": "Madhya Pradesh",
+        "district": "Ratlam",
+        "market": "A lot",
+        "minPrice": "Rs 2400 / Quintal",
+        "maxPrice": "Rs 2578 / Quintal",
+        "avgPrice": "Rs 2578 / Quintal"
+      }
+    ]
+  },
+  {
+    "marketId": "aabu-road",
+    "marketName": "Aabu Road",
+    "count": 10,
+    "data": [
+      {
+        "commodity": "Cucumbar(Kheera)",
+        "arrivalDate": "28/10/2025",
+        "variety": "Cucumber",
+        "state": "Rajasthan",
+        "district": "Sirohi",
+        "market": "Aabu Road",
+        "minPrice": "Rs 1000 / Quintal",
+        "maxPrice": "Rs 1000 / Quintal",
+        "avgPrice": "Rs 1000 / Quintal"
+      },
+      {
+        "commodity": "Marigold(loose)",
+        "arrivalDate": "28/10/2025",
+        "variety": "Mari Gold",
+        "state": "Rajasthan",
+        "district": "Sirohi",
+        "market": "Aabu Road",
+        "minPrice": "Rs 3000 / Quintal",
+        "maxPrice": "Rs 3000 / Quintal",
+        "avgPrice": "Rs 3000 / Quintal"
+      },
+      {
+        "commodity": "Cabbage",
+        "arrivalDate": "28/10/2025",
+        "variety": "Cabbage",
+        "state": "Rajasthan",
+        "district": "Sirohi",
+        "market": "Aabu Road",
+        "minPrice": "Rs 1600 / Quintal",
+        "maxPrice": "Rs 1600 / Quintal",
+        "avgPrice": "Rs 1600 / Quintal"
+      },
+      {
+        "commodity": "Ladies Finger",
+        "arrivalDate": "28/10/2025",
+        "variety": "Lady Finger",
+        "state": "Rajasthan",
+        "district": "Sirohi",
+        "market": "Aabu Road",
+        "minPrice": "Rs 1500 / Quintal",
+        "maxPrice": "Rs 1500 / Quintal",
+        "avgPrice": "Rs 1500 / Quintal"
+      },
+      {
+        "commodity": "Spring Onion",
+        "arrivalDate": "28/10/2025",
+        "variety": "Spring Onion",
+        "state": "Rajasthan",
+        "district": "Sirohi",
+        "market": "Aabu Road",
+        "minPrice": "Rs 2000 / Quintal",
+        "maxPrice": "Rs 2000 / Quintal",
+        "avgPrice": "Rs 2000 / Quintal"
+      },
+      {
+        "commodity": "Corriander seed",
+        "arrivalDate": "28/10/2025",
+        "variety": "Coriandar",
+        "state": "Rajasthan",
+        "district": "Sirohi",
+        "market": "Aabu Road",
+        "minPrice": "Rs 4000 / Quintal",
+        "maxPrice": "Rs 4000 / Quintal",
+        "avgPrice": "Rs 4000 / Quintal"
+      },
+      {
+        "commodity": "Banana",
+        "arrivalDate": "28/10/2025",
+        "variety": "Banana",
+        "state": "Rajasthan",
+        "district": "Sirohi",
+        "market": "Aabu Road",
+        "minPrice": "Rs 2200 / Quintal",
+        "maxPrice": "Rs 2200 / Quintal",
+        "avgPrice": "Rs 2200 / Quintal"
+      },
+      {
+        "commodity": "Potato",
+        "arrivalDate": "28/10/2025",
+        "variety": "Potato",
+        "state": "Rajasthan",
+        "district": "Sirohi",
+        "market": "Aabu Road",
+        "minPrice": "Rs 1500 / Quintal",
+        "maxPrice": "Rs 1500 / Quintal",
+        "avgPrice": "Rs 1500 / Quintal"
+      },
+      {
+        "commodity": "Tomato",
+        "arrivalDate": "28/10/2025",
+        "variety": "Tomato",
+        "state": "Rajasthan",
+        "district": "Sirohi",
+        "market": "Aabu Road",
+        "minPrice": "Rs 800 / Quintal",
+        "maxPrice": "Rs 800 / Quintal",
+        "avgPrice": "Rs 800 / Quintal"
+      },
+      {
+        "commodity": "Brinjal",
+        "arrivalDate": "28/10/2025",
+        "variety": "Brinjal",
+        "state": "Rajasthan",
+        "district": "Sirohi",
+        "market": "Aabu Road",
+        "minPrice": "Rs 1000 / Quintal",
+        "maxPrice": "Rs 1000 / Quintal",
+        "avgPrice": "Rs 1000 / Quintal"
+      }
+    ]
+  },
+  {
+    "marketId": "aamgaon",
+    "marketName": "Aamgaon",
+    "count": 6,
+    "data": [
+      {
+        "commodity": "Paddy(Dhan)(Common)",
+        "arrivalDate": "27/10/2025",
+        "variety": "Paddy 1010",
+        "state": "Maharashtra",
+        "district": "Gondiya",
+        "market": "Aamgaon",
+        "minPrice": "Rs 1875 / Quintal",
+        "maxPrice": "Rs 1890 / Quintal",
+        "avgPrice": "Rs 1890 / Quintal"
+      },
+      {
+        "commodity": "Paddy(Dhan)(Common)",
+        "arrivalDate": "24/10/2025",
+        "variety": "Paddy 1010",
+        "state": "Maharashtra",
+        "district": "Gondiya",
+        "market": "Aamgaon",
+        "minPrice": "Rs 1835 / Quintal",
+        "maxPrice": "Rs 1855 / Quintal",
+        "avgPrice": "Rs 1855 / Quintal"
+      },
+      {
+        "commodity": "Paddy(Dhan)(Common)",
+        "arrivalDate": "18/10/2025",
+        "variety": "Paddy 1010",
+        "state": "Maharashtra",
+        "district": "Gondiya",
+        "market": "Aamgaon",
+        "minPrice": "Rs 1850 / Quintal",
+        "maxPrice": "Rs 1860 / Quintal",
+        "avgPrice": "Rs 1860 / Quintal"
+      },
+      {
+        "commodity": "Paddy(Dhan)(Common)",
+        "arrivalDate": "17/10/2025",
+        "variety": "Paddy 1010",
+        "state": "Maharashtra",
+        "district": "Gondiya",
+        "market": "Aamgaon",
+        "minPrice": "Rs 1825 / Quintal",
+        "maxPrice": "Rs 1850 / Quintal",
+        "avgPrice": "Rs 1840 / Quintal"
+      },
+      {
+        "commodity": "Paddy(Dhan)(Common)",
+        "arrivalDate": "10/10/2025",
+        "variety": "Paddy 1010",
+        "state": "Maharashtra",
+        "district": "Gondiya",
+        "market": "Aamgaon",
+        "minPrice": "Rs 1800 / Quintal",
+        "maxPrice": "Rs 1820 / Quintal",
+        "avgPrice": "Rs 1820 / Quintal"
+      },
+      {
+        "commodity": "Paddy(Dhan)(Common)",
+        "arrivalDate": "09/10/2025",
+        "variety": "Paddy 1010",
+        "state": "Maharashtra",
+        "district": "Gondiya",
+        "market": "Aamgaon",
+        "minPrice": "Rs 1800 / Quintal",
+        "maxPrice": "Rs 1820 / Quintal",
+        "avgPrice": "Rs 1820 / Quintal"
+      }
+    ]
+  },
+  {
+    "marketId": "aarah",
+    "marketName": "Aarah",
+    "count": 10,
+    "data": [
+      {
+        "commodity": "Potato",
+        "arrivalDate": "29/10/2025",
+        "variety": "Jyoti",
+        "state": "Bihar",
+        "district": "Bhojpur",
+        "market": "Aarah",
+        "minPrice": "Rs 2000 / Quintal",
+        "maxPrice": "Rs 2200 / Quintal",
+        "avgPrice": "Rs 2100 / Quintal"
+      },
+      {
+        "commodity": "Potato",
+        "arrivalDate": "28/10/2025",
+        "variety": "Jyoti",
+        "state": "Bihar",
+        "district": "Bhojpur",
+        "market": "Aarah",
+        "minPrice": "Rs 2000 / Quintal",
+        "maxPrice": "Rs 2200 / Quintal",
+        "avgPrice": "Rs 2100 / Quintal"
+      },
+      {
+        "commodity": "Potato",
+        "arrivalDate": "27/10/2025",
+        "variety": "Jyoti",
+        "state": "Bihar",
+        "district": "Bhojpur",
+        "market": "Aarah",
+        "minPrice": "Rs 2000 / Quintal",
+        "maxPrice": "Rs 2200 / Quintal",
+        "avgPrice": "Rs 2100 / Quintal"
+      },
+      {
+        "commodity": "Potato",
+        "arrivalDate": "24/10/2025",
+        "variety": "Jyoti",
+        "state": "Bihar",
+        "district": "Bhojpur",
+        "market": "Aarah",
+        "minPrice": "Rs 2000 / Quintal",
+        "maxPrice": "Rs 2200 / Quintal",
+        "avgPrice": "Rs 2100 / Quintal"
+      },
+      {
+        "commodity": "Potato",
+        "arrivalDate": "23/10/2025",
+        "variety": "Jyoti",
+        "state": "Bihar",
+        "district": "Bhojpur",
+        "market": "Aarah",
+        "minPrice": "Rs 2000 / Quintal",
+        "maxPrice": "Rs 2200 / Quintal",
+        "avgPrice": "Rs 2100 / Quintal"
+      },
+      {
+        "commodity": "Potato",
+        "arrivalDate": "22/10/2025",
+        "variety": "Jyoti",
+        "state": "Bihar",
+        "district": "Bhojpur",
+        "market": "Aarah",
+        "minPrice": "Rs 2000 / Quintal",
+        "maxPrice": "Rs 2200 / Quintal",
+        "avgPrice": "Rs 2100 / Quintal"
+      },
+      {
+        "commodity": "Potato",
+        "arrivalDate": "21/10/2025",
+        "variety": "Jyoti",
+        "state": "Bihar",
+        "district": "Bhojpur",
+        "market": "Aarah",
+        "minPrice": "Rs 2000 / Quintal",
+        "maxPrice": "Rs 2200 / Quintal",
+        "avgPrice": "Rs 2100 / Quintal"
+      },
+      {
+        "commodity": "Potato",
+        "arrivalDate": "16/10/2025",
+        "variety": "Jyoti",
+        "state": "Bihar",
+        "district": "Bhojpur",
+        "market": "Aarah",
+        "minPrice": "Rs 2000 / Quintal",
+        "maxPrice": "Rs 2200 / Quintal",
+        "avgPrice": "Rs 2100 / Quintal"
+      },
+      {
+        "commodity": "Potato",
+        "arrivalDate": "15/10/2025",
+        "variety": "Jyoti",
+        "state": "Bihar",
+        "district": "Bhojpur",
+        "market": "Aarah",
+        "minPrice": "Rs 2000 / Quintal",
+        "maxPrice": "Rs 2200 / Quintal",
+        "avgPrice": "Rs 2100 / Quintal"
+      },
+      {
+        "commodity": "Potato",
+        "arrivalDate": "14/10/2025",
+        "variety": "Jyoti",
+        "state": "Bihar",
+        "district": "Bhojpur",
+        "market": "Aarah",
+        "minPrice": "Rs 2000 / Quintal",
+        "maxPrice": "Rs 2200 / Quintal",
+        "avgPrice": "Rs 2100 / Quintal"
+      }
+    ]
+  },
+  {
+    "marketId": "aarni",
+    "marketName": "Aarni",
+    "count": 10,
+    "data": [
+      {
+        "commodity": "Sesamum(Sesame,Gingelly,Til)",
+        "arrivalDate": "09/09/2025",
+        "variety": "White",
+        "state": "Maharashtra",
+        "district": "Yavatmal",
+        "market": "Aarni",
+        "minPrice": "Rs 9000 / Quintal",
+        "maxPrice": "Rs 9500 / Quintal",
+        "avgPrice": "Rs 9300 / Quintal"
+      },
+      {
+        "commodity": "Sesamum(Sesame,Gingelly,Til)",
+        "arrivalDate": "04/09/2025",
+        "variety": "White",
+        "state": "Maharashtra",
+        "district": "Yavatmal",
+        "market": "Aarni",
+        "minPrice": "Rs 8800 / Quintal",
+        "maxPrice": "Rs 9351 / Quintal",
+        "avgPrice": "Rs 9150 / Quintal"
+      },
+      {
+        "commodity": "Sesamum(Sesame,Gingelly,Til)",
+        "arrivalDate": "07/08/2025",
+        "variety": "White",
+        "state": "Maharashtra",
+        "district": "Yavatmal",
+        "market": "Aarni",
+        "minPrice": "Rs 8800 / Quintal",
+        "maxPrice": "Rs 9500 / Quintal",
+        "avgPrice": "Rs 9100 / Quintal"
+      },
+      {
+        "commodity": "Arhar (Tur/Red Gram)(Whole)",
+        "arrivalDate": "07/08/2025",
+        "variety": "Other",
+        "state": "Maharashtra",
+        "district": "Yavatmal",
+        "market": "Aarni",
+        "minPrice": "Rs 6000 / Quintal",
+        "maxPrice": "Rs 6400 / Quintal",
+        "avgPrice": "Rs 6150 / Quintal"
+      },
+      {
+        "commodity": "Soyabean",
+        "arrivalDate": "06/08/2025",
+        "variety": "Yellow",
+        "state": "Maharashtra",
+        "district": "Yavatmal",
+        "market": "Aarni",
+        "minPrice": "Rs 4000 / Quintal",
+        "maxPrice": "Rs 4811 / Quintal",
+        "avgPrice": "Rs 4300 / Quintal"
+      },
+      {
+        "commodity": "Sesamum(Sesame,Gingelly,Til)",
+        "arrivalDate": "05/08/2025",
+        "variety": "White",
+        "state": "Maharashtra",
+        "district": "Yavatmal",
+        "market": "Aarni",
+        "minPrice": "Rs 8800 / Quintal",
+        "maxPrice": "Rs 9300 / Quintal",
+        "avgPrice": "Rs 9000 / Quintal"
+      },
+      {
+        "commodity": "Sesamum(Sesame,Gingelly,Til)",
+        "arrivalDate": "04/08/2025",
+        "variety": "White",
+        "state": "Maharashtra",
+        "district": "Yavatmal",
+        "market": "Aarni",
+        "minPrice": "Rs 8500 / Quintal",
+        "maxPrice": "Rs 9300 / Quintal",
+        "avgPrice": "Rs 9000 / Quintal"
+      },
+      {
+        "commodity": "Sesamum(Sesame,Gingelly,Til)",
+        "arrivalDate": "01/08/2025",
+        "variety": "White",
+        "state": "Maharashtra",
+        "district": "Yavatmal",
+        "market": "Aarni",
+        "minPrice": "Rs 8000 / Quintal",
+        "maxPrice": "Rs 9000 / Quintal",
+        "avgPrice": "Rs 8500 / Quintal"
+      },
+      {
+        "commodity": "Sesamum(Sesame,Gingelly,Til)",
+        "arrivalDate": "31/07/2025",
+        "variety": "White",
+        "state": "Maharashtra",
+        "district": "Yavatmal",
+        "market": "Aarni",
+        "minPrice": "Rs 7900 / Quintal",
+        "maxPrice": "Rs 8590 / Quintal",
+        "avgPrice": "Rs 8200 / Quintal"
+      },
+      {
+        "commodity": "Arhar (Tur/Red Gram)(Whole)",
+        "arrivalDate": "13/06/2025",
+        "variety": "Other",
+        "state": "Maharashtra",
+        "district": "Yavatmal",
+        "market": "Aarni",
+        "minPrice": "Rs 5800 / Quintal",
+        "maxPrice": "Rs 6175 / Quintal",
+        "avgPrice": "Rs 6000 / Quintal"
+      }
+    ]
+  },
+  {
+    "marketId": "aashta-fv",
+    "marketName": "Aashta(F&V)",
+    "count": 8,
+    "data": [
+      {
+        "commodity": "Garlic",
+        "arrivalDate": "14/10/2025",
+        "variety": "Average",
+        "state": "Madhya Pradesh",
+        "district": "Sehore",
+        "market": "Aashta(F&V)",
+        "minPrice": "Rs 1200 / Quintal",
+        "maxPrice": "Rs 6610 / Quintal",
+        "avgPrice": "Rs 3140 / Quintal"
+      },
+      {
+        "commodity": "Onion",
+        "arrivalDate": "14/10/2025",
+        "variety": "1st Sort",
+        "state": "Madhya Pradesh",
+        "district": "Sehore",
+        "market": "Aashta(F&V)",
+        "minPrice": "Rs 200 / Quintal",
+        "maxPrice": "Rs 908 / Quintal",
+        "avgPrice": "Rs 540 / Quintal"
+      },
+      {
+        "commodity": "Garlic",
+        "arrivalDate": "04/10/2025",
+        "variety": "Average",
+        "state": "Madhya Pradesh",
+        "district": "Sehore",
+        "market": "Aashta(F&V)",
+        "minPrice": "Rs 1310 / Quintal",
+        "maxPrice": "Rs 6070 / Quintal",
+        "avgPrice": "Rs 3010 / Quintal"
+      },
+      {
+        "commodity": "Onion",
+        "arrivalDate": "04/10/2025",
+        "variety": "1st Sort",
+        "state": "Madhya Pradesh",
+        "district": "Sehore",
+        "market": "Aashta(F&V)",
+        "minPrice": "Rs 200 / Quintal",
+        "maxPrice": "Rs 1281 / Quintal",
+        "avgPrice": "Rs 650 / Quintal"
+      },
+      {
+        "commodity": "Garlic",
+        "arrivalDate": "28/08/2025",
+        "variety": "Average",
+        "state": "Madhya Pradesh",
+        "district": "Sehore",
+        "market": "Aashta(F&V)",
+        "minPrice": "Rs 1000 / Quintal",
+        "maxPrice": "Rs 6190 / Quintal",
+        "avgPrice": "Rs 3210 / Quintal"
+      },
+      {
+        "commodity": "Onion",
+        "arrivalDate": "28/08/2025",
+        "variety": "1st Sort",
+        "state": "Madhya Pradesh",
+        "district": "Sehore",
+        "market": "Aashta(F&V)",
+        "minPrice": "Rs 300 / Quintal",
+        "maxPrice": "Rs 1285 / Quintal",
+        "avgPrice": "Rs 750 / Quintal"
+      },
+      {
+        "commodity": "Garlic",
+        "arrivalDate": "25/08/2025",
+        "variety": "Average",
+        "state": "Madhya Pradesh",
+        "district": "Sehore",
+        "market": "Aashta(F&V)",
+        "minPrice": "Rs 1000 / Quintal",
+        "maxPrice": "Rs 6380 / Quintal",
+        "avgPrice": "Rs 3200 / Quintal"
+      },
+      {
+        "commodity": "Onion",
+        "arrivalDate": "25/08/2025",
+        "variety": "1st Sort",
+        "state": "Madhya Pradesh",
+        "district": "Sehore",
+        "market": "Aashta(F&V)",
+        "minPrice": "Rs 300 / Quintal",
+        "maxPrice": "Rs 1370 / Quintal",
+        "avgPrice": "Rs 820 / Quintal"
+      }
+    ]
+  },
+  {
+    "marketId": "aatpadi",
+    "marketName": "Aatpadi",
+    "count": 10,
+    "data": [
+      {
+        "commodity": "Seetapal",
+        "arrivalDate": "15/10/2025",
+        "variety": "Other",
+        "state": "Maharashtra",
+        "district": "Sangli",
+        "market": "Aatpadi",
+        "minPrice": "Rs 1000 / Quintal",
+        "maxPrice": "Rs 4600 / Quintal",
+        "avgPrice": "Rs 2800 / Quintal"
+      },
+      {
+        "commodity": "Guava",
+        "arrivalDate": "15/10/2025",
+        "variety": "Other",
+        "state": "Maharashtra",
+        "district": "Sangli",
+        "market": "Aatpadi",
+        "minPrice": "Rs 1000 / Quintal",
+        "maxPrice": "Rs 3000 / Quintal",
+        "avgPrice": "Rs 2000 / Quintal"
+      },
+      {
+        "commodity": "Seetapal",
+        "arrivalDate": "13/10/2025",
+        "variety": "Other",
+        "state": "Maharashtra",
+        "district": "Sangli",
+        "market": "Aatpadi",
+        "minPrice": "Rs 1000 / Quintal",
+        "maxPrice": "Rs 5000 / Quintal",
+        "avgPrice": "Rs 3000 / Quintal"
+      },
+      {
+        "commodity": "Guava",
+        "arrivalDate": "13/10/2025",
+        "variety": "Other",
+        "state": "Maharashtra",
+        "district": "Sangli",
+        "market": "Aatpadi",
+        "minPrice": "Rs 1000 / Quintal",
+        "maxPrice": "Rs 3200 / Quintal",
+        "avgPrice": "Rs 2100 / Quintal"
+      },
+      {
+        "commodity": "Guava",
+        "arrivalDate": "09/10/2025",
+        "variety": "Other",
+        "state": "Maharashtra",
+        "district": "Sangli",
+        "market": "Aatpadi",
+        "minPrice": "Rs 500 / Quintal",
+        "maxPrice": "Rs 4100 / Quintal",
+        "avgPrice": "Rs 2300 / Quintal"
+      },
+      {
+        "commodity": "Seetapal",
+        "arrivalDate": "09/10/2025",
+        "variety": "Other",
+        "state": "Maharashtra",
+        "district": "Sangli",
+        "market": "Aatpadi",
+        "minPrice": "Rs 900 / Quintal",
+        "maxPrice": "Rs 4000 / Quintal",
+        "avgPrice": "Rs 2400 / Quintal"
+      },
+      {
+        "commodity": "Pomegranate",
+        "arrivalDate": "06/10/2025",
+        "variety": "Other",
+        "state": "Maharashtra",
+        "district": "Sangli",
+        "market": "Aatpadi",
+        "minPrice": "Rs 1000 / Quintal",
+        "maxPrice": "Rs 15100 / Quintal",
+        "avgPrice": "Rs 8000 / Quintal"
+      },
+      {
+        "commodity": "Seetapal",
+        "arrivalDate": "06/10/2025",
+        "variety": "Other",
+        "state": "Maharashtra",
+        "district": "Sangli",
+        "market": "Aatpadi",
+        "minPrice": "Rs 1000 / Quintal",
+        "maxPrice": "Rs 4500 / Quintal",
+        "avgPrice": "Rs 2200 / Quintal"
+      },
+      {
+        "commodity": "Pomegranate",
+        "arrivalDate": "05/10/2025",
+        "variety": "Other",
+        "state": "Maharashtra",
+        "district": "Sangli",
+        "market": "Aatpadi",
+        "minPrice": "Rs 1000 / Quintal",
+        "maxPrice": "Rs 14800 / Quintal",
+        "avgPrice": "Rs 7900 / Quintal"
+      },
+      {
+        "commodity": "Seetapal",
+        "arrivalDate": "05/10/2025",
+        "variety": "Other",
+        "state": "Maharashtra",
+        "district": "Sangli",
+        "market": "Aatpadi",
+        "minPrice": "Rs 1000 / Quintal",
+        "maxPrice": "Rs 4000 / Quintal",
+        "avgPrice": "Rs 2500 / Quintal"
+      }
+    ]
+  },
+  {
+    "marketId": "abhanpur",
+    "marketName": "Abhanpur",
+    "count": 10,
+    "data": [
+      {
+        "commodity": "Paddy(Dhan)(Common)",
+        "arrivalDate": "29/10/2025",
+        "variety": "I.R. 64",
+        "state": "Chattisgarh",
+        "district": "Raipur",
+        "market": "Abhanpur",
+        "minPrice": "Rs 2095 / Quintal",
+        "maxPrice": "Rs 2100 / Quintal",
+        "avgPrice": "Rs 2097 / Quintal"
+      },
+      {
+        "commodity": "Paddy(Dhan)(Common)",
+        "arrivalDate": "28/10/2025",
+        "variety": "D.B.",
+        "state": "Chattisgarh",
+        "district": "Raipur",
+        "market": "Abhanpur",
+        "minPrice": "Rs 2085 / Quintal",
+        "maxPrice": "Rs 2100 / Quintal",
+        "avgPrice": "Rs 2091 / Quintal"
+      },
+      {
+        "commodity": "Paddy(Dhan)(Common)",
+        "arrivalDate": "23/10/2025",
+        "variety": "I.R. 64",
+        "state": "Chattisgarh",
+        "district": "Raipur",
+        "market": "Abhanpur",
+        "minPrice": "Rs 2085 / Quintal",
+        "maxPrice": "Rs 2095 / Quintal",
+        "avgPrice": "Rs 2090 / Quintal"
+      },
+      {
+        "commodity": "Paddy(Dhan)(Common)",
+        "arrivalDate": "14/10/2025",
+        "variety": "I.R. 64",
+        "state": "Chattisgarh",
+        "district": "Raipur",
+        "market": "Abhanpur",
+        "minPrice": "Rs 2095 / Quintal",
+        "maxPrice": "Rs 2095 / Quintal",
+        "avgPrice": "Rs 2095 / Quintal"
+      },
+      {
+        "commodity": "Paddy(Dhan)(Common)",
+        "arrivalDate": "13/10/2025",
+        "variety": "I.R. 64",
+        "state": "Chattisgarh",
+        "district": "Raipur",
+        "market": "Abhanpur",
+        "minPrice": "Rs 2085 / Quintal",
+        "maxPrice": "Rs 2085 / Quintal",
+        "avgPrice": "Rs 2085 / Quintal"
+      },
+      {
+        "commodity": "Paddy(Dhan)(Common)",
+        "arrivalDate": "09/10/2025",
+        "variety": "MTU-1010",
+        "state": "Chattisgarh",
+        "district": "Raipur",
+        "market": "Abhanpur",
+        "minPrice": "Rs 2095 / Quintal",
+        "maxPrice": "Rs 2095 / Quintal",
+        "avgPrice": "Rs 2095 / Quintal"
+      },
+      {
+        "commodity": "Paddy(Dhan)(Common)",
+        "arrivalDate": "08/10/2025",
+        "variety": "MTU-1010",
+        "state": "Chattisgarh",
+        "district": "Raipur",
+        "market": "Abhanpur",
+        "minPrice": "Rs 2093 / Quintal",
+        "maxPrice": "Rs 2093 / Quintal",
+        "avgPrice": "Rs 2093 / Quintal"
+      },
+      {
+        "commodity": "Paddy(Dhan)(Common)",
+        "arrivalDate": "06/10/2025",
+        "variety": "MTU-1010",
+        "state": "Chattisgarh",
+        "district": "Raipur",
+        "market": "Abhanpur",
+        "minPrice": "Rs 2100 / Quintal",
+        "maxPrice": "Rs 2100 / Quintal",
+        "avgPrice": "Rs 2100 / Quintal"
+      },
+      {
+        "commodity": "Paddy(Dhan)(Common)",
+        "arrivalDate": "03/10/2025",
+        "variety": "MTU-1010",
+        "state": "Chattisgarh",
+        "district": "Raipur",
+        "market": "Abhanpur",
+        "minPrice": "Rs 2095 / Quintal",
+        "maxPrice": "Rs 2095 / Quintal",
+        "avgPrice": "Rs 2095 / Quintal"
+      },
+      {
+        "commodity": "Paddy(Dhan)(Common)",
+        "arrivalDate": "25/09/2025",
+        "variety": "D.B.",
+        "state": "Chattisgarh",
+        "district": "Raipur",
+        "market": "Abhanpur",
+        "minPrice": "Rs 1990 / Quintal",
+        "maxPrice": "Rs 1991 / Quintal",
+        "avgPrice": "Rs 1990 / Quintal"
+      }
+    ]
+  },
+  {
+    "marketId": "abohar",
+    "marketName": "Abohar",
+    "count": 10,
+    "data": [
+      {
+        "commodity": "Cotton",
+        "arrivalDate": "28/10/2025",
+        "variety": "Narma BT Cotton",
+        "state": "Punjab",
+        "district": "Fazilka",
+        "market": "Abohar",
+        "minPrice": "Rs 6700 / Quintal",
+        "maxPrice": "Rs 7360 / Quintal",
+        "avgPrice": "Rs 7360 / Quintal"
+      },
+      {
+        "commodity": "Cotton",
+        "arrivalDate": "28/10/2025",
+        "variety": "Cotton",
+        "state": "Punjab",
+        "district": "Fazilka",
+        "market": "Abohar",
+        "minPrice": "Rs 6010 / Quintal",
+        "maxPrice": "Rs 7280 / Quintal",
+        "avgPrice": "Rs 7110 / Quintal"
+      },
+      {
+        "commodity": "Cotton",
+        "arrivalDate": "28/10/2025",
+        "variety": "Desi",
+        "state": "Punjab",
+        "district": "Fazilka",
+        "market": "Abohar",
+        "minPrice": "Rs 6900 / Quintal",
+        "maxPrice": "Rs 7100 / Quintal",
+        "avgPrice": "Rs 7100 / Quintal"
+      },
+      {
+        "commodity": "Paddy(Dhan)(Common)",
+        "arrivalDate": "28/10/2025",
+        "variety": "Paddy",
+        "state": "Punjab",
+        "district": "Fazilka",
+        "market": "Abohar",
+        "minPrice": "Rs 2389 / Quintal",
+        "maxPrice": "Rs 2389 / Quintal",
+        "avgPrice": "Rs 2389 / Quintal"
+      },
+      {
+        "commodity": "Cotton",
+        "arrivalDate": "27/10/2025",
+        "variety": "Desi",
+        "state": "Punjab",
+        "district": "Fazilka",
+        "market": "Abohar",
+        "minPrice": "Rs 6900 / Quintal",
+        "maxPrice": "Rs 7090 / Quintal",
+        "avgPrice": "Rs 7090 / Quintal"
+      },
+      {
+        "commodity": "Paddy(Dhan)(Basmati)",
+        "arrivalDate": "27/10/2025",
+        "variety": "1121",
+        "state": "Punjab",
+        "district": "Fazilka",
+        "market": "Abohar",
+        "minPrice": "Rs 2825 / Quintal",
+        "maxPrice": "Rs 3579 / Quintal",
+        "avgPrice": "Rs 3141 / Quintal"
+      },
+      {
+        "commodity": "Cotton",
+        "arrivalDate": "27/10/2025",
+        "variety": "Cotton",
+        "state": "Punjab",
+        "district": "Fazilka",
+        "market": "Abohar",
+        "minPrice": "Rs 5860 / Quintal",
+        "maxPrice": "Rs 7305 / Quintal",
+        "avgPrice": "Rs 7110 / Quintal"
+      },
+      {
+        "commodity": "Cotton",
+        "arrivalDate": "27/10/2025",
+        "variety": "Narma BT Cotton",
+        "state": "Punjab",
+        "district": "Fazilka",
+        "market": "Abohar",
+        "minPrice": "Rs 6800 / Quintal",
+        "maxPrice": "Rs 7860 / Quintal",
+        "avgPrice": "Rs 7860 / Quintal"
+      },
+      {
+        "commodity": "Paddy(Dhan)(Common)",
+        "arrivalDate": "27/10/2025",
+        "variety": "Paddy",
+        "state": "Punjab",
+        "district": "Fazilka",
+        "market": "Abohar",
+        "minPrice": "Rs 2389 / Quintal",
+        "maxPrice": "Rs 2389 / Quintal",
+        "avgPrice": "Rs 2389 / Quintal"
+      },
+      {
+        "commodity": "Paddy(Dhan)(Common)",
+        "arrivalDate": "24/10/2025",
+        "variety": "Paddy",
+        "state": "Punjab",
+        "district": "Fazilka",
+        "market": "Abohar",
+        "minPrice": "Rs 2389 / Quintal",
+        "maxPrice": "Rs 2389 / Quintal",
+        "avgPrice": "Rs 2389 / Quintal"
+      }
+    ]
+  }
+]
