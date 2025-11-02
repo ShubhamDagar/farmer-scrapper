@@ -72,7 +72,7 @@ async def scrape_all_markets(markets):
                        "Chrome/120.0.0.0 Safari/537.36"
         )
 
-        semaphore = asyncio.Semaphore(5)
+        semaphore = asyncio.Semaphore(20)
 
         async def limited_scrape(m):
             async with semaphore:
@@ -86,7 +86,7 @@ async def scrape_all_markets(markets):
 @app.route("/scrape", methods=["GET"])
 def scrape_endpoint():
     """Scrape all markets defined in markets.json and return as JSON."""
-    json_file = "markets.json"
+    json_file = "mandi_data.json"
 
     if not os.path.exists(json_file):
         return jsonify({"error": f"{json_file} not found"}), 404
