@@ -10,16 +10,17 @@ app = Flask(__name__)
 async def scrape_market_prices(context, market):
     """Scrape mandi data for one market entry (marketId, marketName)."""
     market_id = market["marketId"]
-    market_name = market["marketName"]
-    url = f"https://www.commodityonline.com/mandiprices/scrape/{market_id}"
-    print(f"Scraping {market_name} ({market_id})")
+    #  market_name = market["marketName"]
+    """Scrape mandi data for a single market ID."""
+    url = f"https://www.commodityonline.com/mandiprices/market/{market_id}"
+    print(f"Fetching: {url}")
 
     page = await context.new_page()
     try:
         await page.goto(url, wait_until="networkidle", timeout=30000)
         await page.wait_for_selector("#main-table2 tbody tr", timeout=15000)
 
-        rows = await page.evaluate("""
+        rows_data = await page.evaluate("""
         () => {
             const rows = document.querySelectorAll("#main-table2 tbody tr");
             return Array.from(rows).map(row => {
@@ -39,24 +40,16 @@ async def scrape_market_prices(context, market):
         }
         """)
 
-        print(f"{market_name}: {len(rows)} rows scraped")
+        for row in rows_data:
+            row["market_id"] = market_id
 
-        return {
-            "marketId": market_id,
-            "marketName": market_name,
-            "count": len(rows),
-            "data": rows
-        }
+        print(f"Market {market_id}: {len(rows_data)} rows")
+        return rows_data
 
     except Exception as e:
-        print(f"Error scraping {market_name}: {e}")
-        return {
-            "marketId": market_id,
-            "marketName": market_name,
-            "count": 0,
-            "error": str(e),
-            "data": []
-        }
+        print(f"Error scraping market {market_id}: {e}")
+        return []
+
     finally:
         await page.close()
 
