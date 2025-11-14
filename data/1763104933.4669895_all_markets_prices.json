@@ -1,0 +1,122 @@
+[
+  {
+    "commodity": "Sesamum(Sesame,Gingelly,Til)",
+    "arrivalDate": "09/09/2025",
+    "variety": "White",
+    "state": "Maharashtra",
+    "district": "Yavatmal",
+    "market": "Aarni",
+    "minPrice": "Rs 9000 / Quintal",
+    "maxPrice": "Rs 9500 / Quintal",
+    "avgPrice": "Rs 9300 / Quintal",
+    "market_id": "aarni"
+  },
+  {
+    "commodity": "Sesamum(Sesame,Gingelly,Til)",
+    "arrivalDate": "04/09/2025",
+    "variety": "White",
+    "state": "Maharashtra",
+    "district": "Yavatmal",
+    "market": "Aarni",
+    "minPrice": "Rs 8800 / Quintal",
+    "maxPrice": "Rs 9351 / Quintal",
+    "avgPrice": "Rs 9150 / Quintal",
+    "market_id": "aarni"
+  },
+  {
+    "commodity": "Sesamum(Sesame,Gingelly,Til)",
+    "arrivalDate": "07/08/2025",
+    "variety": "White",
+    "state": "Maharashtra",
+    "district": "Yavatmal",
+    "market": "Aarni",
+    "minPrice": "Rs 8800 / Quintal",
+    "maxPrice": "Rs 9500 / Quintal",
+    "avgPrice": "Rs 9100 / Quintal",
+    "market_id": "aarni"
+  },
+  {
+    "commodity": "Arhar (Tur/Red Gram)(Whole)",
+    "arrivalDate": "07/08/2025",
+    "variety": "Other",
+    "state": "Maharashtra",
+    "district": "Yavatmal",
+    "market": "Aarni",
+    "minPrice": "Rs 6000 / Quintal",
+    "maxPrice": "Rs 6400 / Quintal",
+    "avgPrice": "Rs 6150 / Quintal",
+    "market_id": "aarni"
+  },
+  {
+    "commodity": "Soyabean",
+    "arrivalDate": "06/08/2025",
+    "variety": "Yellow",
+    "state": "Maharashtra",
+    "district": "Yavatmal",
+    "market": "Aarni",
+    "minPrice": "Rs 4000 / Quintal",
+    "maxPrice": "Rs 4811 / Quintal",
+    "avgPrice": "Rs 4300 / Quintal",
+    "market_id": "aarni"
+  },
+  {
+    "commodity": "Sesamum(Sesame,Gingelly,Til)",
+    "arrivalDate": "05/08/2025",
+    "variety": "White",
+    "state": "Maharashtra",
+    "district": "Yavatmal",
+    "market": "Aarni",
+    "minPrice": "Rs 8800 / Quintal",
+    "maxPrice": "Rs 9300 / Quintal",
+    "avgPrice": "Rs 9000 / Quintal",
+    "market_id": "aarni"
+  },
+  {
+    "commodity": "Sesamum(Sesame,Gingelly,Til)",
+    "arrivalDate": "04/08/2025",
+    "variety": "White",
+    "state": "Maharashtra",
+    "district": "Yavatmal",
+    "market": "Aarni",
+    "minPrice": "Rs 8500 / Quintal",
+    "maxPrice": "Rs 9300 / Quintal",
+    "avgPrice": "Rs 9000 / Quintal",
+    "market_id": "aarni"
+  },
+  {
+    "commodity": "Sesamum(Sesame,Gingelly,Til)",
+    "arrivalDate": "01/08/2025",
+    "variety": "White",
+    "state": "Maharashtra",
+    "district": "Yavatmal",
+    "market": "Aarni",
+    "minPrice": "Rs 8000 / Quintal",
+    "maxPrice": "Rs 9000 / Quintal",
+    "avgPrice": "Rs 8500 / Quintal",
+    "market_id": "aarni"
+  },
+  {
+    "commodity": "Sesamum(Sesame,Gingelly,Til)",
+    "arrivalDate": "31/07/2025",
+    "variety": "White",
+    "state": "Maharashtra",
+    "district": "Yavatmal",
+    "market": "Aarni",
+    "minPrice": "Rs 7900 / Quintal",
+    "maxPrice": "Rs 8590 / Quintal",
+    "avgPrice": "Rs 8200 / Quintal",
+    "market_id": "aarni"
+  },
+  {
+    "commodity": "Arhar (Tur/Red Gram)(Whole)",
+    "arrivalDate": "13/06/2025",
+    "variety": "Other",
+    "state": "Maharashtra",
+    "district": "Yavatmal",
+    "market": "Aarni",
+    "minPrice": "Rs 5800 / Quintal",
+    "maxPrice": "Rs 6175 / Quintal",
+    "avgPrice": "Rs 6000 / Quintal",
+    "market_id": "aarni"
+  }
+]

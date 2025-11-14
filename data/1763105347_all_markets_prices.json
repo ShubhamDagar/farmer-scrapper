@@ -1,0 +1,98 @@
+[
+  {
+    "commodity": "Garlic",
+    "arrivalDate": "14/10/2025",
+    "variety": "Average",
+    "state": "Madhya Pradesh",
+    "district": "Sehore",
+    "market": "Aashta(F&V)",
+    "minPrice": "Rs 1200 / Quintal",
+    "maxPrice": "Rs 6610 / Quintal",
+    "avgPrice": "Rs 3140 / Quintal",
+    "market_id": "aashta-fv"
+  },
+  {
+    "commodity": "Onion",
+    "arrivalDate": "14/10/2025",
+    "variety": "1st Sort",
+    "state": "Madhya Pradesh",
+    "district": "Sehore",
+    "market": "Aashta(F&V)",
+    "minPrice": "Rs 200 / Quintal",
+    "maxPrice": "Rs 908 / Quintal",
+    "avgPrice": "Rs 540 / Quintal",
+    "market_id": "aashta-fv"
+  },
+  {
+    "commodity": "Garlic",
+    "arrivalDate": "04/10/2025",
+    "variety": "Average",
+    "state": "Madhya Pradesh",
+    "district": "Sehore",
+    "market": "Aashta(F&V)",
+    "minPrice": "Rs 1310 / Quintal",
+    "maxPrice": "Rs 6070 / Quintal",
+    "avgPrice": "Rs 3010 / Quintal",
+    "market_id": "aashta-fv"
+  },
+  {
+    "commodity": "Onion",
+    "arrivalDate": "04/10/2025",
+    "variety": "1st Sort",
+    "state": "Madhya Pradesh",
+    "district": "Sehore",
+    "market": "Aashta(F&V)",
+    "minPrice": "Rs 200 / Quintal",
+    "maxPrice": "Rs 1281 / Quintal",
+    "avgPrice": "Rs 650 / Quintal",
+    "market_id": "aashta-fv"
+  },
+  {
+    "commodity": "Garlic",
+    "arrivalDate": "28/08/2025",
+    "variety": "Average",
+    "state": "Madhya Pradesh",
+    "district": "Sehore",
+    "market": "Aashta(F&V)",
+    "minPrice": "Rs 1000 / Quintal",
+    "maxPrice": "Rs 6190 / Quintal",
+    "avgPrice": "Rs 3210 / Quintal",
+    "market_id": "aashta-fv"
+  },
+  {
+    "commodity": "Onion",
+    "arrivalDate": "28/08/2025",
+    "variety": "1st Sort",
+    "state": "Madhya Pradesh",
+    "district": "Sehore",
+    "market": "Aashta(F&V)",
+    "minPrice": "Rs 300 / Quintal",
+    "maxPrice": "Rs 1285 / Quintal",
+    "avgPrice": "Rs 750 / Quintal",
+    "market_id": "aashta-fv"
+  },
+  {
+    "commodity": "Garlic",
+    "arrivalDate": "25/08/2025",
+    "variety": "Average",
+    "state": "Madhya Pradesh",
+    "district": "Sehore",
+    "market": "Aashta(F&V)",
+    "minPrice": "Rs 1000 / Quintal",
+    "maxPrice": "Rs 6380 / Quintal",
+    "avgPrice": "Rs 3200 / Quintal",
+    "market_id": "aashta-fv"
+  },
+  {
+    "commodity": "Onion",
+    "arrivalDate": "25/08/2025",
+    "variety": "1st Sort",
+    "state": "Madhya Pradesh",
+    "district": "Sehore",
+    "market": "Aashta(F&V)",
+    "minPrice": "Rs 300 / Quintal",
+    "maxPrice": "Rs 1370 / Quintal",
+    "avgPrice": "Rs 820 / Quintal",
+    "market_id": "aashta-fv"
+  }
+]

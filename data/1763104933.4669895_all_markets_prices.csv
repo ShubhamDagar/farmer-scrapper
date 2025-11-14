@@ -1,0 +1,11 @@
+commodity,arrivalDate,variety,state,district,market,minPrice,maxPrice,avgPrice,market_id
+"Sesamum(Sesame,Gingelly,Til)",09/09/2025,White,Maharashtra,Yavatmal,Aarni,Rs 9000 / Quintal,Rs 9500 / Quintal,Rs 9300 / Quintal,aarni
+"Sesamum(Sesame,Gingelly,Til)",04/09/2025,White,Maharashtra,Yavatmal,Aarni,Rs 8800 / Quintal,Rs 9351 / Quintal,Rs 9150 / Quintal,aarni
+"Sesamum(Sesame,Gingelly,Til)",07/08/2025,White,Maharashtra,Yavatmal,Aarni,Rs 8800 / Quintal,Rs 9500 / Quintal,Rs 9100 / Quintal,aarni
+Arhar (Tur/Red Gram)(Whole),07/08/2025,Other,Maharashtra,Yavatmal,Aarni,Rs 6000 / Quintal,Rs 6400 / Quintal,Rs 6150 / Quintal,aarni
+Soyabean,06/08/2025,Yellow,Maharashtra,Yavatmal,Aarni,Rs 4000 / Quintal,Rs 4811 / Quintal,Rs 4300 / Quintal,aarni
+"Sesamum(Sesame,Gingelly,Til)",05/08/2025,White,Maharashtra,Yavatmal,Aarni,Rs 8800 / Quintal,Rs 9300 / Quintal,Rs 9000 / Quintal,aarni
+"Sesamum(Sesame,Gingelly,Til)",04/08/2025,White,Maharashtra,Yavatmal,Aarni,Rs 8500 / Quintal,Rs 9300 / Quintal,Rs 9000 / Quintal,aarni
+"Sesamum(Sesame,Gingelly,Til)",01/08/2025,White,Maharashtra,Yavatmal,Aarni,Rs 8000 / Quintal,Rs 9000 / Quintal,Rs 8500 / Quintal,aarni
+"Sesamum(Sesame,Gingelly,Til)",31/07/2025,White,Maharashtra,Yavatmal,Aarni,Rs 7900 / Quintal,Rs 8590 / Quintal,Rs 8200 / Quintal,aarni
+Arhar (Tur/Red Gram)(Whole),13/06/2025,Other,Maharashtra,Yavatmal,Aarni,Rs 5800 / Quintal,Rs 6175 / Quintal,Rs 6000 / Quintal,aarni

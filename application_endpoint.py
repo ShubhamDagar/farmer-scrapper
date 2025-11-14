@@ -8,6 +8,8 @@ import time, os
 
 app = Flask(__name__)
 
+MANDI_ID_FILE = "mandi_ids.txt"
+
 # ───────────────────────────────────────────────
 # Scrape one market
 # ───────────────────────────────────────────────
@@ -60,11 +62,11 @@ async def scrape_market_prices(context, market_id: str):
 @app.route("/scrape")
 async def scrape_all():
     """Flask endpoint to scrape all market pages from a list of string IDs."""
-    if not os.path.exists("ids"):
+    if not os.path.exists(MANDI_ID_FILE):
         return jsonify({"error": "File 'ids' not found"}), 400
 
     # Read market IDs as strings
-    with open("ids", "r", encoding="utf-8") as f:
+    with open(MANDI_ID_FILE, "r", encoding="utf-8") as f:
         market_ids = [line.strip() for line in f if line.strip()]
 
     if not market_ids:

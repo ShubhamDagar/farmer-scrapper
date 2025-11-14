@@ -1,0 +1,9 @@
+commodity,arrivalDate,variety,state,district,market,minPrice,maxPrice,avgPrice,market_id
+Garlic,14/10/2025,Average,Madhya Pradesh,Sehore,Aashta(F&V),Rs 1200 / Quintal,Rs 6610 / Quintal,Rs 3140 / Quintal,aashta-fv
+Onion,14/10/2025,1st Sort,Madhya Pradesh,Sehore,Aashta(F&V),Rs 200 / Quintal,Rs 908 / Quintal,Rs 540 / Quintal,aashta-fv
+Garlic,04/10/2025,Average,Madhya Pradesh,Sehore,Aashta(F&V),Rs 1310 / Quintal,Rs 6070 / Quintal,Rs 3010 / Quintal,aashta-fv
+Onion,04/10/2025,1st Sort,Madhya Pradesh,Sehore,Aashta(F&V),Rs 200 / Quintal,Rs 1281 / Quintal,Rs 650 / Quintal,aashta-fv
+Garlic,28/08/2025,Average,Madhya Pradesh,Sehore,Aashta(F&V),Rs 1000 / Quintal,Rs 6190 / Quintal,Rs 3210 / Quintal,aashta-fv
+Onion,28/08/2025,1st Sort,Madhya Pradesh,Sehore,Aashta(F&V),Rs 300 / Quintal,Rs 1285 / Quintal,Rs 750 / Quintal,aashta-fv
+Garlic,25/08/2025,Average,Madhya Pradesh,Sehore,Aashta(F&V),Rs 1000 / Quintal,Rs 6380 / Quintal,Rs 3200 / Quintal,aashta-fv
+Onion,25/08/2025,1st Sort,Madhya Pradesh,Sehore,Aashta(F&V),Rs 300 / Quintal,Rs 1370 / Quintal,Rs 820 / Quintal,aashta-fv

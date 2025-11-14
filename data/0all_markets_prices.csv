@@ -1,0 +1,160 @@
+commodity,arrivalDate,variety,state,district,market,minPrice,maxPrice,avgPrice,market_id
+Paddy(Dhan)(Common),30/10/2025,I.R. 64,Chattisgarh,Raipur,Abhanpur,Rs 2040 / Quintal,Rs 2100 / Quintal,Rs 2081 / Quintal,abhanpur
+Paddy(Dhan)(Common),29/10/2025,I.R. 64,Chattisgarh,Raipur,Abhanpur,Rs 2095 / Quintal,Rs 2100 / Quintal,Rs 2097 / Quintal,abhanpur
+Paddy(Dhan)(Common),28/10/2025,D.B.,Chattisgarh,Raipur,Abhanpur,Rs 2085 / Quintal,Rs 2100 / Quintal,Rs 2091 / Quintal,abhanpur
+Paddy(Dhan)(Common),23/10/2025,I.R. 64,Chattisgarh,Raipur,Abhanpur,Rs 2085 / Quintal,Rs 2095 / Quintal,Rs 2090 / Quintal,abhanpur
+Paddy(Dhan)(Common),14/10/2025,I.R. 64,Chattisgarh,Raipur,Abhanpur,Rs 2095 / Quintal,Rs 2095 / Quintal,Rs 2095 / Quintal,abhanpur
+Paddy(Dhan)(Common),13/10/2025,I.R. 64,Chattisgarh,Raipur,Abhanpur,Rs 2085 / Quintal,Rs 2085 / Quintal,Rs 2085 / Quintal,abhanpur
+Paddy(Dhan)(Common),09/10/2025,MTU-1010,Chattisgarh,Raipur,Abhanpur,Rs 2095 / Quintal,Rs 2095 / Quintal,Rs 2095 / Quintal,abhanpur
+Paddy(Dhan)(Common),08/10/2025,MTU-1010,Chattisgarh,Raipur,Abhanpur,Rs 2093 / Quintal,Rs 2093 / Quintal,Rs 2093 / Quintal,abhanpur
+Paddy(Dhan)(Common),06/10/2025,MTU-1010,Chattisgarh,Raipur,Abhanpur,Rs 2100 / Quintal,Rs 2100 / Quintal,Rs 2100 / Quintal,abhanpur
+Paddy(Dhan)(Common),03/10/2025,MTU-1010,Chattisgarh,Raipur,Abhanpur,Rs 2095 / Quintal,Rs 2095 / Quintal,Rs 2095 / Quintal,abhanpur
+Tomato,01/11/2025,Other,Rajasthan,Sirohi,Abu Road,Rs 475 / Quintal,Rs 525 / Quintal,Rs 500 / Quintal,abu-road
+Tomato,30/10/2025,Other,Rajasthan,Sirohi,Abu Road,Rs 775 / Quintal,Rs 825 / Quintal,Rs 800 / Quintal,abu-road
+Potato,24/10/2025,Other,Rajasthan,Sirohi,Abu Road,Rs 1575 / Quintal,Rs 1625 / Quintal,Rs 1600 / Quintal,abu-road
+Tomato,24/10/2025,Other,Rajasthan,Sirohi,Abu Road,Rs 975 / Quintal,Rs 1025 / Quintal,Rs 1000 / Quintal,abu-road
+Onion,24/10/2025,Other,Rajasthan,Sirohi,Abu Road,Rs 1375 / Quintal,Rs 1425 / Quintal,Rs 1400 / Quintal,abu-road
+Onion,10/10/2025,Other,Rajasthan,Sirohi,Abu Road,Rs 1575 / Quintal,Rs 1625 / Quintal,Rs 1600 / Quintal,abu-road
+Tomato,10/10/2025,Other,Rajasthan,Sirohi,Abu Road,Rs 1175 / Quintal,Rs 1225 / Quintal,Rs 1200 / Quintal,abu-road
+Garlic,10/10/2025,Average,Rajasthan,Sirohi,Abu Road,Rs 5375 / Quintal,Rs 5425 / Quintal,Rs 5400 / Quintal,abu-road
+Potato,10/10/2025,Other,Rajasthan,Sirohi,Abu Road,Rs 1275 / Quintal,Rs 1325 / Quintal,Rs 1300 / Quintal,abu-road
+Garlic,09/10/2025,Average,Rajasthan,Sirohi,Abu Road,Rs 5575 / Quintal,Rs 5625 / Quintal,Rs 5600 / Quintal,abu-road
+Rice,03/11/2025,III,Uttar Pradesh,Auraiya,Achalda,Rs 3000 / Quintal,Rs 3120 / Quintal,Rs 3040 / Quintal,achalda
+Banana,03/11/2025,Banana - Ripe,Uttar Pradesh,Auraiya,Achalda,Rs 2200 / Quintal,Rs 2350 / Quintal,Rs 2300 / Quintal,achalda
+Bengal Gram(Gram)(Whole),03/11/2025,Desi (Whole),Uttar Pradesh,Auraiya,Achalda,Rs 6000 / Quintal,Rs 6250 / Quintal,Rs 6120 / Quintal,achalda
+Cabbage,03/11/2025,Cabbage,Uttar Pradesh,Auraiya,Achalda,Rs 2000 / Quintal,Rs 2300 / Quintal,Rs 2120 / Quintal,achalda
+Green Chilli,03/11/2025,Green Chilly,Uttar Pradesh,Auraiya,Achalda,Rs 3400 / Quintal,Rs 3560 / Quintal,Rs 3500 / Quintal,achalda
+Tomato,03/11/2025,Hybrid,Uttar Pradesh,Auraiya,Achalda,Rs 1700 / Quintal,Rs 1900 / Quintal,Rs 1800 / Quintal,achalda
+Wheat,03/11/2025,Dara,Uttar Pradesh,Auraiya,Achalda,Rs 2400 / Quintal,Rs 2520 / Quintal,Rs 2480 / Quintal,achalda
+Bajra(Pearl Millet/Cumbu),03/11/2025,Hybrid,Uttar Pradesh,Auraiya,Achalda,Rs 2700 / Quintal,Rs 2800 / Quintal,Rs 2775 / Quintal,achalda
+Bottle gourd,03/11/2025,Bottle Gourd,Uttar Pradesh,Auraiya,Achalda,Rs 1500 / Quintal,Rs 1650 / Quintal,Rs 1600 / Quintal,achalda
+Onion,03/11/2025,Red,Uttar Pradesh,Auraiya,Achalda,Rs 1250 / Quintal,Rs 1420 / Quintal,Rs 1320 / Quintal,achalda
+Maize,31/10/2025,Deshi Red,Telangana,Mahbubnagar,Achampet,Rs 1206 / Quintal,Rs 1999 / Quintal,Rs 1997 / Quintal,achampet
+Maize,26/10/2025,Deshi Red,Telangana,Mahbubnagar,Achampet,Rs 1401 / Quintal,Rs 1839 / Quintal,Rs 1805 / Quintal,achampet
+Maize,24/10/2025,Deshi Red,Telangana,Mahbubnagar,Achampet,Rs 1526 / Quintal,Rs 1807 / Quintal,Rs 1526 / Quintal,achampet
+Maize,23/10/2025,Maize Local,Telangana,Mahbubnagar,Achampet,Rs 1406 / Quintal,Rs 2092 / Quintal,Rs 1972 / Quintal,achampet
+Maize,23/10/2025,Deshi Red,Telangana,Mahbubnagar,Achampet,Rs 1651 / Quintal,Rs 1972 / Quintal,Rs 1832 / Quintal,achampet
+Maize,16/10/2025,Maize Local,Telangana,Mahbubnagar,Achampet,Rs 1206 / Quintal,Rs 2091 / Quintal,Rs 1777 / Quintal,achampet
+Maize,15/10/2025,Deshi Red,Telangana,Mahbubnagar,Achampet,Rs 1735 / Quintal,Rs 2080 / Quintal,Rs 1786 / Quintal,achampet
+Maize,07/10/2025,Maize Local,Telangana,Mahbubnagar,Achampet,Rs 1475 / Quintal,Rs 2111 / Quintal,Rs 2089 / Quintal,achampet
+Castor Seed,07/10/2025,Castor seed,Telangana,Mahbubnagar,Achampet,Rs 5655 / Quintal,Rs 5655 / Quintal,Rs 5655 / Quintal,achampet
+Groundnut,10/07/2025,Balli/Habbu,Telangana,Mahbubnagar,Achampet,Rs 5779 / Quintal,Rs 5817 / Quintal,Rs 5817 / Quintal,achampet
+Green Chilli,01/11/2025,Green Chilly,Uttar Pradesh,Agra,Achnera,Rs 3200 / Quintal,Rs 3300 / Quintal,Rs 3250 / Quintal,achnera
+Mustard,01/11/2025,Sarson(Black),Uttar Pradesh,Agra,Achnera,Rs 6900 / Quintal,Rs 7000 / Quintal,Rs 6950 / Quintal,achnera
+Paddy(Dhan)(Basmati),01/11/2025,Basmati 1509,Uttar Pradesh,Agra,Achnera,Rs 2250 / Quintal,Rs 2900 / Quintal,Rs 2640 / Quintal,achnera
+Bottle gourd,01/11/2025,Bottle Gourd,Uttar Pradesh,Agra,Achnera,Rs 2020 / Quintal,Rs 2100 / Quintal,Rs 2060 / Quintal,achnera
+Wheat,01/11/2025,Dara,Uttar Pradesh,Agra,Achnera,Rs 2500 / Quintal,Rs 2650 / Quintal,Rs 2575 / Quintal,achnera
+Bajra(Pearl Millet/Cumbu),01/11/2025,Hybrid,Uttar Pradesh,Agra,Achnera,Rs 2300 / Quintal,Rs 2775 / Quintal,Rs 2775 / Quintal,achnera
+Banana,01/11/2025,Banana - Ripe,Uttar Pradesh,Agra,Achnera,Rs 2100 / Quintal,Rs 2180 / Quintal,Rs 2140 / Quintal,achnera
+Brinjal,01/11/2025,Round/Long,Uttar Pradesh,Agra,Achnera,Rs 1900 / Quintal,Rs 2000 / Quintal,Rs 1950 / Quintal,achnera
+Green Gram (Moong)(Whole),01/11/2025,Green (Whole),Uttar Pradesh,Agra,Achnera,Rs 8790 / Quintal,Rs 8790 / Quintal,Rs 8790 / Quintal,achnera
+Gur(Jaggery),01/11/2025,Red,Uttar Pradesh,Agra,Achnera,Rs 4400 / Quintal,Rs 4440 / Quintal,Rs 4420 / Quintal,achnera
+Guar,01/11/2025,Gwar,Haryana,Hissar,Adampur,Rs 3380 / Quintal,Rs 4550 / Quintal,Rs 4300 / Quintal,adampur
+Green Gram (Moong)(Whole),01/11/2025,Moong Whole (Green Gram),Haryana,Hissar,Adampur,Rs 5000 / Quintal,Rs 6600 / Quintal,Rs 5000 / Quintal,adampur
+Bajra(Pearl Millet/Cumbu),01/11/2025,Other,Haryana,Hissar,Adampur,Rs 1900 / Quintal,Rs 1915 / Quintal,Rs 1900 / Quintal,adampur
+Cotton,01/11/2025,American-Cotton,Haryana,Hissar,Adampur,Rs 4050 / Quintal,Rs 7860 / Quintal,Rs 6800 / Quintal,adampur
+Guar Seed(Cluster Beans Seed),01/11/2025,Guar Seeds,Haryana,Hissar,Adampur,Rs 2900 / Quintal,Rs 4650 / Quintal,Rs 4070 / Quintal,adampur
+Guar Seed(Cluster Beans Seed),30/10/2025,Guar Seeds,Haryana,Hissar,Adampur,Rs 3325 / Quintal,Rs 4500 / Quintal,Rs 4100 / Quintal,adampur
+Green Gram (Moong)(Whole),30/10/2025,Other,Haryana,Hissar,Adampur,Rs 5000 / Quintal,Rs 6600 / Quintal,Rs 5200 / Quintal,adampur
+Cotton,30/10/2025,Other,Haryana,Hissar,Adampur,Rs 4400 / Quintal,Rs 7860 / Quintal,Rs 7125 / Quintal,adampur
+Guar,30/10/2025,Gwar,Haryana,Hissar,Adampur,Rs 3000 / Quintal,Rs 4450 / Quintal,Rs 4000 / Quintal,adampur
+Cotton,30/10/2025,American-Cotton,Haryana,Hissar,Adampur,Rs 4650 / Quintal,Rs 7860 / Quintal,Rs 6400 / Quintal,adampur
+Mustard,27/08/2025,Big 100 Kg,Haryana,Hissar,Adampur(Agroha),Rs 6824 / Quintal,Rs 6824 / Quintal,Rs 6824 / Quintal,adampur-agroha
+Mustard,03/06/2025,Big 100 Kg,Haryana,Hissar,Adampur(Agroha),Rs 6125 / Quintal,Rs 6500 / Quintal,Rs 6125 / Quintal,adampur-agroha
+Wheat,15/05/2025,Other,Haryana,Hissar,Adampur(Agroha),Rs 2425 / Quintal,Rs 2425 / Quintal,Rs 2425 / Quintal,adampur-agroha
+Wheat,12/05/2025,Other,Haryana,Hissar,Adampur(Agroha),Rs 2425 / Quintal,Rs 2425 / Quintal,Rs 2425 / Quintal,adampur-agroha
+Wheat,09/05/2025,Other,Haryana,Hissar,Adampur(Agroha),Rs 2425 / Quintal,Rs 2425 / Quintal,Rs 2425 / Quintal,adampur-agroha
+Wheat,07/05/2025,Other,Haryana,Hissar,Adampur(Agroha),Rs 2425 / Quintal,Rs 2425 / Quintal,Rs 2425 / Quintal,adampur-agroha
+Wheat,06/05/2025,Other,Haryana,Hissar,Adampur(Agroha),Rs 2425 / Quintal,Rs 2425 / Quintal,Rs 2425 / Quintal,adampur-agroha
+Cotton,03/11/2025,Cotton (Unginned),Telangana,Adilabad,Adilabad,Rs 6243 / Quintal,Rs 6900 / Quintal,Rs 6900 / Quintal,adilabad
+Cotton,01/11/2025,Cotton (Unginned),Telangana,Adilabad,Adilabad,Rs 6243 / Quintal,Rs 6860 / Quintal,Rs 6586 / Quintal,adilabad
+Cotton,31/10/2025,Cotton (Unginned),Telangana,Adilabad,Adilabad,Rs 6028 / Quintal,Rs 6860 / Quintal,Rs 6576 / Quintal,adilabad
+Cotton,30/10/2025,Cotton (Unginned),Telangana,Adilabad,Adilabad,Rs 5993 / Quintal,Rs 6850 / Quintal,Rs 6850 / Quintal,adilabad
+Cotton,29/10/2025,Cotton (Unginned),Telangana,Adilabad,Adilabad,Rs 5993 / Quintal,Rs 6810 / Quintal,Rs 6538 / Quintal,adilabad
+Cotton,28/10/2025,Cotton (Unginned),Telangana,Adilabad,Adilabad,Rs 6116 / Quintal,Rs 6810 / Quintal,Rs 6810 / Quintal,adilabad
+Cotton,21/06/2025,Cotton (Unginned),Telangana,Adilabad,Adilabad,Rs 6400 / Quintal,Rs 7400 / Quintal,Rs 6850 / Quintal,adilabad
+Cotton,20/06/2025,Cotton (Unginned),Telangana,Adilabad,Adilabad,Rs 6600 / Quintal,Rs 7400 / Quintal,Rs 6800 / Quintal,adilabad
+Cotton,19/06/2025,Cotton (Unginned),Telangana,Adilabad,Adilabad,Rs 6500 / Quintal,Rs 7400 / Quintal,Rs 6950 / Quintal,adilabad
+Cotton,18/06/2025,Cotton (Unginned),Telangana,Adilabad,Adilabad,Rs 6500 / Quintal,Rs 7450 / Quintal,Rs 6900 / Quintal,adilabad
+Amaranthus,29/10/2025,Amaranthus,Kerala,Idukki,Adimali,Rs 4000 / Quintal,Rs 5000 / Quintal,Rs 4000 / Quintal,adimali
+Banana - Green,29/10/2025,Banana - Green,Kerala,Idukki,Adimali,Rs 5000 / Quintal,Rs 5000 / Quintal,Rs 5000 / Quintal,adimali
+Brinjal,29/10/2025,Brinjal,Kerala,Idukki,Adimali,Rs 5000 / Quintal,Rs 5000 / Quintal,Rs 5000 / Quintal,adimali
+Carrot,29/10/2025,Carrot,Kerala,Idukki,Adimali,Rs 8000 / Quintal,Rs 8000 / Quintal,Rs 8000 / Quintal,adimali
+Apple,29/10/2025,Apple,Kerala,Idukki,Adimali,Rs 10000 / Quintal,Rs 13000 / Quintal,Rs 10000 / Quintal,adimali
+Ashgourd,29/10/2025,Ashgourd,Kerala,Idukki,Adimali,Rs 5000 / Quintal,Rs 5000 / Quintal,Rs 5000 / Quintal,adimali
+Drumstick,29/10/2025,Drumstick,Kerala,Idukki,Adimali,Rs 10000 / Quintal,Rs 10000 / Quintal,Rs 10000 / Quintal,adimali
+Tomato,29/10/2025,Hybrid,Kerala,Idukki,Adimali,Rs 5000 / Quintal,Rs 5000 / Quintal,Rs 5000 / Quintal,adimali
+Apple,28/10/2025,Apple,Kerala,Idukki,Adimali,Rs 13000 / Quintal,Rs 13000 / Quintal,Rs 13000 / Quintal,adimali
+Bitter gourd,28/10/2025,Bitter Gourd,Kerala,Idukki,Adimali,Rs 6000 / Quintal,Rs 6000 / Quintal,Rs 6000 / Quintal,adimali
+Bhindi(Ladies Finger),17/04/2024,Bhindi,Kerala,Kottayam,Adithyapuram,Rs 2800 / Quintal,Rs 3200 / Quintal,Rs 3000 / Quintal,adithyapuram
+Bhindi(Ladies Finger),17/04/2024,Bhindi,Kerala,Kottayam,Adithyapuram,Rs 2800 / Quintal,Rs 3200 / Quintal,Rs 3000 / Quintal,adithyapuram
+Amaranthus,17/04/2024,Amaranth Greens-Organic,Kerala,Kottayam,Adithyapuram,Rs 26 / Quintal,Rs 30 / Quintal,Rs 28 / Quintal,adithyapuram
+Amaranthus,17/04/2024,Amaranth Greens-Organic,Kerala,Kottayam,Adithyapuram,Rs 26 / Quintal,Rs 30 / Quintal,Rs 28 / Quintal,adithyapuram
+Amaranthus,16/04/2024,Amaranth Greens-Organic,Kerala,Kottayam,Adithyapuram,Rs 25 / Quintal,Rs 30 / Quintal,Rs 27 / Quintal,adithyapuram
+Amaranthus,16/04/2024,Amaranth Greens-Organic,Kerala,Kottayam,Adithyapuram,Rs 25 / Quintal,Rs 30 / Quintal,Rs 27 / Quintal,adithyapuram
+Bhindi(Ladies Finger),14/04/2024,Bhindi,Kerala,Kottayam,Adithyapuram,Rs 3000 / Quintal,Rs 3800 / Quintal,Rs 3500 / Quintal,adithyapuram
+Bhindi(Ladies Finger),14/04/2024,Bhindi,Kerala,Kottayam,Adithyapuram,Rs 3000 / Quintal,Rs 3800 / Quintal,Rs 3500 / Quintal,adithyapuram
+Bitter gourd,12/04/2024,Bitter Gourd,Kerala,Kottayam,Adithyapuram,Rs 59 / Quintal,Rs 65 / Quintal,Rs 62 / Quintal,adithyapuram
+Bitter gourd,12/04/2024,Bitter Gourd,Kerala,Kottayam,Adithyapuram,Rs 59 / Quintal,Rs 65 / Quintal,Rs 62 / Quintal,adithyapuram
+Cowpea(Veg),11/04/2024,Cowpea (Veg),Kerala,Kottayam,Adithyapuram,Rs 48 / Quintal,Rs 55 / Quintal,Rs 50 / Quintal,adithyapuram
+Cowpea(Veg),11/04/2024,Cowpea (Veg),Kerala,Kottayam,Adithyapuram,Rs 48 / Quintal,Rs 55 / Quintal,Rs 50 / Quintal,adithyapuram
+Amaranthus,09/04/2024,Amaranth Greens-Organic,Kerala,Kottayam,Adithyapuram,Rs 26 / Quintal,Rs 30 / Quintal,Rs 28 / Quintal,adithyapuram
+Bhindi(Ladies Finger),08/04/2024,Bhindi,Kerala,Kottayam,Adithyapuram,Rs 2800 / Quintal,Rs 3300 / Quintal,Rs 3000 / Quintal,adithyapuram
+Bhindi(Ladies Finger),03/04/2024,Bhindi,Kerala,Kottayam,Adithyapuram,Rs 3000 / Quintal,Rs 4000 / Quintal,Rs 3400 / Quintal,adithyapuram
+Cotton,02/11/2025,Cotton,Andhra Pradesh,Kurnool,Adoni,Rs 3960 / Quintal,Rs 7477 / Quintal,Rs 5280 / Quintal,adoni
+Castor Seed,01/11/2025,Castor seed,Andhra Pradesh,Kurnool,Adoni,Rs 5188 / Quintal,Rs 5990 / Quintal,Rs 5949 / Quintal,adoni
+Groundnut,01/11/2025,Ground Nut,Andhra Pradesh,Kurnool,Adoni,Rs 3059 / Quintal,Rs 6300 / Quintal,Rs 4679 / Quintal,adoni
+Cotton,01/11/2025,Cotton,Andhra Pradesh,Kurnool,Adoni,Rs 3960 / Quintal,Rs 7845 / Quintal,Rs 7189 / Quintal,adoni
+Groundnut,01/11/2025,Balli/Habbu,Andhra Pradesh,Kurnool,Adoni,Rs 3364 / Quintal,Rs 6334 / Quintal,Rs 5899 / Quintal,adoni
+Cotton,01/11/2025,Bunny,Andhra Pradesh,Kurnool,Adoni,Rs 4019 / Quintal,Rs 7639 / Quintal,Rs 7369 / Quintal,adoni
+Castor Seed,31/10/2025,Castor seed,Andhra Pradesh,Kurnool,Adoni,Rs 5470 / Quintal,Rs 5989 / Quintal,Rs 5974 / Quintal,adoni
+Groundnut,31/10/2025,Balli/Habbu,Andhra Pradesh,Kurnool,Adoni,Rs 4179 / Quintal,Rs 6280 / Quintal,Rs 5820 / Quintal,adoni
+Cotton,31/10/2025,Bunny,Andhra Pradesh,Kurnool,Adoni,Rs 4019 / Quintal,Rs 7729 / Quintal,Rs 7506 / Quintal,adoni
+Cotton,30/10/2025,Bunny,Andhra Pradesh,Kurnool,Adoni,Rs 4019 / Quintal,Rs 7605 / Quintal,Rs 7289 / Quintal,adoni
+Kabuli Chana(Chickpeas-White),03/11/2025,Dollar Gram,Madhya Pradesh,Shajapur,Agar,Rs 5701 / Quintal,Rs 6901 / Quintal,Rs 6901 / Quintal,agar
+Maize,03/11/2025,Local,Madhya Pradesh,Shajapur,Agar,Rs 1567 / Quintal,Rs 1710 / Quintal,Rs 1710 / Quintal,agar
+Wheat,03/11/2025,Wheat,Madhya Pradesh,Shajapur,Agar,Rs 2400 / Quintal,Rs 2670 / Quintal,Rs 2430 / Quintal,agar
+Soyabean,03/11/2025,Soyabeen,Madhya Pradesh,Shajapur,Agar,Rs 1600 / Quintal,Rs 4600 / Quintal,Rs 4300 / Quintal,agar
+Wheat,02/11/2025,Wheat Mix,Madhya Pradesh,Shajapur,Agar,Rs 2300 / Quintal,Rs 2400 / Quintal,Rs 2400 / Quintal,agar
+Maize,02/11/2025,Local,Madhya Pradesh,Shajapur,Agar,Rs 1789 / Quintal,Rs 1821 / Quintal,Rs 1821 / Quintal,agar
+Onion,01/11/2025,Medium,Madhya Pradesh,Shajapur,Agar,Rs 609 / Quintal,Rs 648 / Quintal,Rs 648 / Quintal,agar
+Wheat,01/11/2025,Wheat,Madhya Pradesh,Shajapur,Agar,Rs 2437 / Quintal,Rs 2451 / Quintal,Rs 2451 / Quintal,agar
+Asalia,31/10/2025,Asalia,Madhya Pradesh,Shajapur,Agar,Rs 4780 / Quintal,Rs 4780 / Quintal,Rs 4780 / Quintal,agar
+Coriander(Leaves),31/10/2025,Coriander,Madhya Pradesh,Shajapur,Agar,Rs 6501 / Quintal,Rs 7451 / Quintal,Rs 6801 / Quintal,agar
+Garlic,05/03/2025,Average,Madhya Pradesh,Agar Malwa,Agar(F&V),Rs 2000 / Quintal,Rs 7000 / Quintal,Rs 4500 / Quintal,agar-fv
+Garlic,03/03/2025,Average,Madhya Pradesh,Agar Malwa,Agar(F&V),Rs 1700 / Quintal,Rs 6800 / Quintal,Rs 4300 / Quintal,agar-fv
+Garlic,19/02/2025,Average,Madhya Pradesh,Agar Malwa,Agar(F&V),Rs 3200 / Quintal,Rs 7000 / Quintal,Rs 4250 / Quintal,agar-fv
+Garlic,06/02/2025,Average,Madhya Pradesh,Agar Malwa,Agar(F&V),Rs 2000 / Quintal,Rs 14000 / Quintal,Rs 5100 / Quintal,agar-fv
+Garlic,05/02/2025,Average,Madhya Pradesh,Agar Malwa,Agar(F&V),Rs 5000 / Quintal,Rs 9600 / Quintal,Rs 7000 / Quintal,agar-fv
+Garlic,04/02/2025,Average,Madhya Pradesh,Agar Malwa,Agar(F&V),Rs 1300 / Quintal,Rs 11000 / Quintal,Rs 5500 / Quintal,agar-fv
+Garlic,01/02/2025,Average,Madhya Pradesh,Agar Malwa,Agar(F&V),Rs 4800 / Quintal,Rs 4800 / Quintal,Rs 4800 / Quintal,agar-fv
+Garlic,31/01/2025,Average,Madhya Pradesh,Agar Malwa,Agar(F&V),Rs 1300 / Quintal,Rs 7000 / Quintal,Rs 5000 / Quintal,agar-fv
+Garlic,28/01/2025,Average,Madhya Pradesh,Agar Malwa,Agar(F&V),Rs 2500 / Quintal,Rs 4400 / Quintal,Rs 3600 / Quintal,agar-fv
+Garlic,27/01/2025,Average,Madhya Pradesh,Agar Malwa,Agar(F&V),Rs 3100 / Quintal,Rs 11000 / Quintal,Rs 6000 / Quintal,agar-fv
+Garlic,24/01/2025,Average,Madhya Pradesh,Agar Malwa,Agar(F&V),Rs 3000 / Quintal,Rs 17000 / Quintal,Rs 12000 / Quintal,agar-fv
+Garlic,07/01/2025,Average,Madhya Pradesh,Agar Malwa,Agar(F&V),Rs 16000 / Quintal,Rs 16000 / Quintal,Rs 16000 / Quintal,agar-fv
+Garlic,06/01/2025,Average,Madhya Pradesh,Agar Malwa,Agar(F&V),Rs 11300 / Quintal,Rs 11300 / Quintal,Rs 11300 / Quintal,agar-fv
+Onion,30/12/2024,1st Sort,Madhya Pradesh,Agar Malwa,Agar(F&V),Rs 1000 / Quintal,Rs 2600 / Quintal,Rs 1675 / Quintal,agar-fv
+Garlic,27/12/2024,Average,Madhya Pradesh,Agar Malwa,Agar(F&V),Rs 2000 / Quintal,Rs 23700 / Quintal,Rs 11100 / Quintal,agar-fv
+Onion,27/12/2024,1st Sort,Madhya Pradesh,Agar Malwa,Agar(F&V),Rs 1225 / Quintal,Rs 2450 / Quintal,Rs 1600 / Quintal,agar-fv
+Onion,19/11/2024,1st Sort,Madhya Pradesh,Agar Malwa,Agar(F&V),Rs 1500 / Quintal,Rs 3900 / Quintal,Rs 2900 / Quintal,agar-fv
+Garlic,19/11/2024,Average,Madhya Pradesh,Agar Malwa,Agar(F&V),Rs 10000 / Quintal,Rs 28000 / Quintal,Rs 15000 / Quintal,agar-fv
+Potato,01/11/2025,Potato,Uttar Pradesh,Agra,Agra,Rs 1008 / Quintal,Rs 1159 / Quintal,Rs 1107 / Quintal,agra
+Apple,31/10/2025,Kasmir/Shimla - II,Uttar Pradesh,Agra,Agra,Rs 4800 / Quintal,Rs 5800 / Quintal,Rs 5300 / Quintal,agra
+Banana,31/10/2025,Banana - Ripe,Uttar Pradesh,Agra,Agra,Rs 2100 / Quintal,Rs 2400 / Quintal,Rs 2300 / Quintal,agra
+Bhindi(Ladies Finger),31/10/2025,Bhindi,Uttar Pradesh,Agra,Agra,Rs 2400 / Quintal,Rs 2700 / Quintal,Rs 2520 / Quintal,agra
+Bitter gourd,31/10/2025,Bitter Gourd,Uttar Pradesh,Agra,Agra,Rs 2300 / Quintal,Rs 2600 / Quintal,Rs 2500 / Quintal,agra
+Mustard,31/10/2025,Sarson(Black),Uttar Pradesh,Agra,Agra,Rs 6800 / Quintal,Rs 6950 / Quintal,Rs 6850 / Quintal,agra
+Onion,31/10/2025,Red,Uttar Pradesh,Agra,Agra,Rs 1050 / Quintal,Rs 1320 / Quintal,Rs 1210 / Quintal,agra
+Sponge gourd,31/10/2025,Sponge gourd,Uttar Pradesh,Agra,Agra,Rs 2400 / Quintal,Rs 2700 / Quintal,Rs 2600 / Quintal,agra
+Bajra(Pearl Millet/Cumbu),31/10/2025,Hybrid,Uttar Pradesh,Agra,Agra,Rs 2500 / Quintal,Rs 2775 / Quintal,Rs 2775 / Quintal,agra
+Brinjal,31/10/2025,Round/Long,Uttar Pradesh,Agra,Agra,Rs 1500 / Quintal,Rs 1700 / Quintal,Rs 1600 / Quintal,agra
+Paddy(Dhan)(Common),18/11/2024,1001,Punjab,Mansa,Ahemadpur,Rs 2320 / Quintal,Rs 2320 / Quintal,Rs 2320 / Quintal,ahemadpur
+Jowar(Sorghum),06/04/2024,Other,Maharashtra,Gadchiroli,Aheri,Rs 2480 / Quintal,Rs 2500 / Quintal,Rs 2500 / Quintal,aheri
+Jowar(Sorghum),06/04/2024,Other,Maharashtra,Gadchiroli,Aheri,Rs 2480 / Quintal,Rs 2500 / Quintal,Rs 2500 / Quintal,aheri
+Jowar(Sorghum),15/03/2024,Other,Maharashtra,Gadchiroli,Aheri,Rs 2500 / Quintal,Rs 2500 / Quintal,Rs 2500 / Quintal,aheri
+Arhar (Tur/Red Gram)(Whole),11/03/2024,Other,Maharashtra,Gadchiroli,Aheri,Rs 7000 / Quintal,Rs 7000 / Quintal,Rs 7000 / Quintal,aheri
+Jowar(Sorghum),09/03/2024,Other,Maharashtra,Gadchiroli,Aheri,Rs 2500 / Quintal,Rs 2500 / Quintal,Rs 2500 / Quintal,aheri
+Jowar(Sorghum),05/03/2024,Other,Maharashtra,Gadchiroli,Aheri,Rs 2500 / Quintal,Rs 2500 / Quintal,Rs 2500 / Quintal,aheri
+Arhar (Tur/Red Gram)(Whole),05/03/2024,Other,Maharashtra,Gadchiroli,Aheri,Rs 8000 / Quintal,Rs 8000 / Quintal,Rs 8000 / Quintal,aheri
+Green Gram (Moong)(Whole),05/03/2024,Other,Maharashtra,Gadchiroli,Aheri,Rs 7500 / Quintal,Rs 7500 / Quintal,Rs 7500 / Quintal,aheri
