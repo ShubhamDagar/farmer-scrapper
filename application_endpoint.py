@@ -4,6 +4,7 @@ import pandas as pd
 import json
 import os
 from flask import Flask, jsonify
+import time, os
 
 app = Flask(__name__)
 
@@ -97,8 +98,9 @@ async def scrape_all():
     all_data = [row for dataset in results for row in dataset]
 
     if all_data:
-        json_path = "data/all_markets_prices.json"
-        csv_path = "data/all_markets_prices.csv"
+        ts = str(int(time.time()))
+        json_path = "data/" + ts + "_all_markets_prices.json"
+        csv_path = "data/" + ts + "_all_markets_prices.csv"
 
         # Save JSON
         with open(json_path, "w", encoding="utf-8") as f:
@@ -117,8 +119,24 @@ async def scrape_all():
 
     else:
         return jsonify({"message": "No data scraped"}), 500
+    
+@app.route("/api")
+async def return_data():
+    directory = "./data/"
+    files = os.listdir(directory)
+    highest = max(files)
+    print(highest)
+    ts = highest.split('_')[0]
+
+    with open(directory + highest, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    
+
+    return jsonify({
+        "data": data,
+        "timestamp" : ts
+    })
 
 
 if __name__ == "__main__":
     app.run(debug=True)
-i
