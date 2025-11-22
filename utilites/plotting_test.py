@@ -7,12 +7,16 @@ import os
 import plotly.graph_objs as go
 import plotly
 
-list_of_files = glob.glob('../data/*.csv')
+list_of_files = glob.glob('data/*.csv')
 
 # Find the latest file based on creation time
-latest_file = max(list_of_files, key=os.path.getctime)
-
-df = pd.read_csv(latest_file)
+if list_of_files:
+    latest_file = max(list_of_files, key=os.path.getctime)
+    print(f"Using latest file: {latest_file}")
+    df = pd.read_csv(latest_file)
+else:
+    print("No CSV files found in data/")
+    df = pd.DataFrame()
 
 def plot_price_history(df, commodity, state, market):
     """
@@ -29,6 +33,9 @@ def plot_price_history(df, commodity, state, market):
     Returns:
         plotly.graph_objects.Figure: A Plotly line chart.
     """
+    if df.empty:
+         return px.line(title="No Data Available", template="plotly_white")
+
     # Ensure 'Date' column is in datetime format
     df['arrivalDate'] = pd.to_datetime(df['arrivalDate'])
 
@@ -42,7 +49,8 @@ def plot_price_history(df, commodity, state, market):
 
     if filtered_df.empty:
         print(f"No data found for Commodity: {commodity}, State: {state}, Market: {market}")
-        return px.line(title="No Data Available", template="plotly_white")
+        fig = px.line(title="No Data Available", template="plotly_white")
+        return json.loads(json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder))
 
     # Sort by date and get the latest 7 entries
     latest_7_dates_df = filtered_df.sort_values(by='arrivalDate', ascending=False).head(7)
@@ -94,13 +102,10 @@ def plot_price_history(df, commodity, state, market):
     return line_json
 
 
-
-
 def generate_clean_india_map(df, commodity):    
-    # latest_date = df['arrivalDate_dt'].max()
-    # target_commodity = commodity
-    # df_filtered = df[(df['arrivalDate_dt'] == latest_date) & (df['commodity'] == target_commodity)]
-    # state_prices = df_filtered.groupby('state')['avgPrice_num'].mean().reset_index()
+    if df.empty:
+        return {}
+
     # state_prices = get_latest_commodity_prices_per_state(df, commodity)
     state_prices = get_max_date(df, commodity)
 
@@ -109,18 +114,19 @@ def generate_clean_india_map(df, commodity):
         'Uttrakhand': 'Uttarakhand',
         'Orissa': 'Odisha',
         'Pondicherry': 'Puducherry',
-        'Andaman and Nicobar': 'Andaman and Nicobar Islands',
+        'Andaman and Nicobar': 'Andaman & Nicobar',
         'NCT of Delhi': 'Delhi',
-        'Chattisgarh': 'Chhattisgarh'
+        'Chattisgarh': 'Chhattisgarh',
+        'Jammu and Kashmir': 'Jammu & Kashmir'
     }
     state_prices['state'] = state_prices['state'].replace(name_corrections)
     print(state_prices.head())
-    # print(state_prices['arrivalDate'].dt.date)
+    
     # 3. Create Master List of All States (The "Grey" Skeleton)
     all_states = [
-        "Andaman and Nicobar Islands", "Andhra Pradesh", "Arunachal Pradesh", "Assam", 
+        "Andaman & Nicobar", "Andhra Pradesh", "Arunachal Pradesh", "Assam", 
         "Bihar", "Chandigarh", "Chhattisgarh", "Dadra and Nagar Haveli and Daman and Diu", 
-        "Delhi", "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jammu and Kashmir", 
+        "Delhi", "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jammu & Kashmir", 
         "Jharkhand", "Karnataka", "Kerala", "Ladakh", "Lakshadweep", "Madhya Pradesh", 
         "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Odisha", 
         "Puducherry", "Punjab", "Rajasthan", "Sikkim", "Tamil Nadu", "Telangana", 
@@ -130,14 +136,31 @@ def generate_clean_india_map(df, commodity):
 
     # Merge to align data with the master list
     df_merged = pd.merge(df_all_states, state_prices, on='state', how='left')
+    
+    print("DEBUG: Unique states in df_merged:")
+    print(df_merged['state'].unique())
+    print("DEBUG: Sample of df_merged with avgPrice:")
+    print(df_merged[['state', 'avgPrice']].head(10))
 
     # 4. Get India GeoJSON
-    geojson_url = "https://gist.githubusercontent.com/jbrobst/56c13bbbf9d97d187fea01ca62ea5112/raw/e388c4cae20aa53cb5090210a42ebb9b765c0a36/india_states.geojson"
-    # geojson_url = "https://raw.githubusercontent.com/Subhash9325/GeoJson-Data-of-Indian-States/refs/heads/master/Indian_States"
-    # geojson_url = "https://cdn.jsdelivr.net/gh/udit-001/india-maps-data@8d907bc/geojson/india.geojson"
-    # geojson_url = "https://raw.githubusercontent.com/civictech-India/INDIA-GEO-JSON-Datasets/refs/heads/main/india_states2.json"
-    response = requests.get(geojson_url)
-    india_geojson = response.json()
+    try:
+        with open('india.geojson', 'r') as f:
+            india_geojson = json.load(f)
+            print("DEBUG: GeoJSON loaded. First feature property keys:")
+            print(india_geojson['features'][0]['properties'].keys())
+            geojson_states = [f['properties']['ST_NM'] for f in india_geojson['features']]
+            print("DEBUG: First 5 GeoJSON states:", geojson_states[:5])
+            
+            # Check for mismatches
+            data_states = set(df_merged['state'])
+            geo_states = set(geojson_states)
+            print("DEBUG: States in Data but NOT in GeoJSON:", data_states - geo_states)
+            print("DEBUG: States in GeoJSON but NOT in Data:", geo_states - data_states)
+            
+    except FileNotFoundError:
+        print("india.geojson not found")
+        return {}
+
     # 5. Build the Map with Two Layers
     fig = go.Figure()
 
@@ -158,12 +181,16 @@ def generate_clean_india_map(df, commodity):
     # Layer 2: The "Heatmap" (Valid Data -> Colors)
     # We only plot states that actually have a price value
     df_with_data = df_merged.dropna(subset=['avgPrice'])
+    print(f"DEBUG: df_with_data shape: {df_with_data.shape}")
+    print(f"DEBUG: df_with_data columns: {df_with_data.columns}")
+    print(f"DEBUG: df_with_data['avgPrice'] head: {df_with_data['avgPrice'].head()}")
+    print(f"DEBUG: df_with_data['state'] head: {df_with_data['state'].head()}")
     
     fig.add_trace(go.Choropleth(
         geojson=india_geojson,
         featureidkey='properties.ST_NM',
         locations=df_with_data['state'],
-        z=df_with_data['avgPrice'],
+        z=df_with_data['avgPrice'].tolist(),
         colorscale='YlOrRd',    # Your desired heat map scale
         marker_line_color='white',
         marker_line_width=0.5,
@@ -182,8 +209,7 @@ def generate_clean_india_map(df, commodity):
         margin={"r":0,"t":50,"l":0,"b":0},
         height=700
     )
-
-    # print(latest_date)
+    
     map_json = json.loads(json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder))
     return map_json
 
@@ -197,8 +223,13 @@ def get_max_date(df, commodity):
     return df3
 
 def get_num(text):
-    num = float(text.split('/')[0].split(" ")[1])
-    return num
+    if isinstance(text, (int, float)):
+        return float(text)
+    try:
+        num = float(text.split('/')[0].split(" ")[1])
+        return num
+    except (IndexError, ValueError, AttributeError):
+        return 0.0
 
 def plotting(commodity, state, market):
     pct=0
