@@ -6,13 +6,10 @@ import os
 from flask import Flask, jsonify, request
 import time, os
 from utilites.plotting_test import plotting
-<<<<<<< HEAD
-=======
 import plotly.io as pio
 from flask_cors import CORS
 import requests
 
->>>>>>> 177113b1f8a8cc4502662e387a8439cfcf3ee440
 app = Flask(__name__)
 CORS(
     app,
@@ -22,9 +19,6 @@ CORS(
 
 MANDI_ID_FILE = "mandi_ids.txt"
 
-# ───────────────────────────────────────────────
-# Scrape one market
-# ───────────────────────────────────────────────
 async def scrape_market_prices(context, market_id: str):
     """Scrape mandi data for a single market ID."""
     url = f"https://www.commodityonline.com/mandiprices/market/{market_id}"
@@ -68,9 +62,6 @@ async def scrape_market_prices(context, market_id: str):
         await page.close()
 
 
-# ───────────────────────────────────────────────
-# Flask endpoint to trigger scraping
-# ───────────────────────────────────────────────
 @app.route("/scrape")
 async def scrape_all():
     """Flask endpoint to scrape all market pages from a list of string IDs."""
@@ -163,17 +154,6 @@ def return_data():
 
 @app.post("/api/generate-charts")
 def generate_charts():
-<<<<<<< HEAD
-    # data = request.json
-    data = {"commodity": "Wheat",
-      "state": "Punjab",
-      "market": "Ludhiana"}
-    commodity = data["commodity"]
-    state = data["state"]
-    market = data["market"]
-    return plotting(commodity, state, market)
-
-=======
     data = request.json
     commodity = data["commodity"]
     state = data["state"]
@@ -182,7 +162,6 @@ def generate_charts():
     print(map_data)
 
     return json.dumps(map_data)
->>>>>>> 177113b1f8a8cc4502662e387a8439cfcf3ee440
 
 if __name__ == "__main__":
     app.run(port=5002, debug=True)
