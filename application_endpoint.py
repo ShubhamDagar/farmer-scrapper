@@ -3,9 +3,9 @@ from playwright.async_api import async_playwright
 import pandas as pd
 import json
 import os
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 import time, os
-
+from utilites.plotting_test import plotting
 app = Flask(__name__)
 
 MANDI_ID_FILE = "mandi_ids.txt"
@@ -138,6 +138,17 @@ async def return_data():
         "data": data,
         "timestamp" : ts
     })
+
+@app.post("/api/generate-charts")
+def generate_charts():
+    # data = request.json
+    data = {"commodity": "Wheat",
+      "state": "Punjab",
+      "market": "Ludhiana"}
+    commodity = data["commodity"]
+    state = data["state"]
+    market = data["market"]
+    return plotting(commodity, state, market)
 
 
 if __name__ == "__main__":
