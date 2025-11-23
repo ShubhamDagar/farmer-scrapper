@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "farmer-portal-36a95",
+  "private_key_id": "7e1b34c1fddd9b629fab40fe47dde0b63e6d50b0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCgUyEY2ykwxX5N\nHZLbeTTugsgn9pfkh2ecvEGZ76P4tf7t0dHOmd+GTJoDAbS3FsLVmDR4+hAymfD7\nYaLa516JcqtiiN21vsMN7HMKjISr0GiJWPNjv0gdxoUZWSWmcWYRjBhaYzwjsTlQ\nWlhLlNyU3+6L32dfhsgLVhOTdVf1deJTOKNakp4IZY07UrxEQvAL7ycZzVr8X9RP\nqQWKaLO8w8OUTHDvHbKO2eDKE1OMU5hyxiFXXSX3hQq3pVoQJudRaYjc6HmQK+ka\nhsS/CO3oHqmqFlhZsg7eptzhdS5BtdnL/D8QYUQn29LTyUqSp+ljx4GK47gPPOOt\nKCt4A3bjAgMBAAECggEAKMA4f2rlc2IfklZcB7EtRRq06YOCZDIOogYv3oLM+OC5\npZVZcNwntqkt1GnQl2EPsN75J27YQyRh3mOY029P1jvxWCBVymZsidN6AkppRoq4\np4CWjNoH6JmXJzRDn6TfPsKPRhpHJQNdABGWs89oqeapaaAlVGCb5FXCsA55hwhC\nPL2lvjw1tdm9yGsh6tUd5dNo9RniGdKZH7TvBCW4UWitGrvc/ji4zP49xv1Ua5Os\n/BuC3uO1aqsk3OirTVDnrpW6Ikgt9c1xHPIHMC5obmTUPO7H0YPEF4yNi/A7lhzz\nNLSGqS0zwsLZj5nhzBpp6lPsBqHR+Uyz0ZxxXig0gQKBgQDfc5DUcLCF0mm6nmBN\n9p/nVt+kTs9/j+OUgyiwRBnauuo+lCSp1dX/W9zhtShtwB2J7Xtjd5TwIJ6r5UJU\n0IfEIsrOYDPEWZTQaALGN4YotyBl7S/gyVX5E9+Cq4BKm32TpnFUH9G4qCrhZIYz\nrCpdaMJEsFU1dWCPTQC5ox0KgwKBgQC3rZaekVVi1j/gt+tLgruUsfeGWbd0CE5Y\niV9+931YFUpQDTQLq19huPNNgELnYc09Bw05VZ1rzli/Bk6byyjpWEbAQ+6Evi0D\nNPjpcPTx7j78IHA+sqL/w9KN3tLPc1AS+f5u7LCp9W5s7MQBYqkZcmbJzOmKc8S1\nCRM0kMu0IQKBgFymqHjNuQPj+R7+KGRrTGY56UVRwEveN7kOoUJlGmtNcW89Me6R\n0ceuKWoVGYxYSmc0ZyMZJFJk1CXmS5irVoAHBRyJWy2hD0lSt0PFJgWf2PkqXd3Q\n3asHiHe/8NP+oRUlwHvnLahpYk5Oxi6Kxo4wr8yXaN1frAf/H7vZXGNNAoGBAIN3\nn+MHKxJ/P2FcwvFdNV4Ms5paBNDsUQdV7CA4jGLLelEp4iKoGrEbbCoAr+JlQj14\nGqL7AJ31J9gyb3lbRIEgSiO7e7FPXXB6Ld8IlonDeRmFLlHyEnD2fHJHFqSdaKbs\ngIxspVZA8TTNks1bDKXGGIRAQrhyfE0HndN2ABeBAoGAdFy11JdVrbOADzVMUPjM\nRw6vBecyNWUXrk2tUEVb8YemYvBBeXRQimW+B9/catIOeh0Dpnr2umlIyH5eMzuY\nzQdsqugMmPOGLNygJrcdTnHU4HXvYMxcd3CZp5G5Adi+2bPg6sxLyF1LCyOA/b3h\nycMwEJVdkY+M4mhercZnPyM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@farmer-portal-36a95.iam.gserviceaccount.com",
+  "client_id": "106587114111615445313",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40farmer-portal-36a95.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
