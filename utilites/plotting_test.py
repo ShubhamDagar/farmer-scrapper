@@ -7,8 +7,12 @@ import os
 import plotly.graph_objs as go
 import plotly
 
+<<<<<<< HEAD
 list_of_files = glob.glob('../data/*.csv')
 
+=======
+list_of_files = glob.glob('./data/*.csv')
+>>>>>>> 177113b1f8a8cc4502662e387a8439cfcf3ee440
 
 if list_of_files:
     latest_file = max(list_of_files, key=os.path.getctime)
@@ -104,6 +108,7 @@ def plot_price_history(df, commodity, state, market):
 
 def generate_clean_india_map(df, commodity):    
     if df.empty:
+        print(list_of_files)
         return {}
 
     # state_prices = get_latest_commodity_prices_per_state(df, commodity)
@@ -144,7 +149,7 @@ def generate_clean_india_map(df, commodity):
 
     # 4. Get India GeoJSON
     try:
-        with open('india.geojson', 'r') as f:
+        with open('./utilites/india.geojson', 'r') as f:
             india_geojson = json.load(f)
             print("DEBUG: GeoJSON loaded. First feature property keys:")
             print(india_geojson['features'][0]['properties'].keys())
@@ -243,9 +248,14 @@ def pct_change(df, commodity, state, market):
     
 
 def plotting(commodity, state, market):
+<<<<<<< HEAD
     pct=pct_change(df, commodity, state, market)
     return {
         "line_chart": plot_price_history(df, commodity, state, market),
         "map_chart": generate_clean_india_map(df, commodity),
         "kpi": {"pct_change": round(pct,2)}
     }
+=======
+    pct=0
+    return generate_clean_india_map(df, commodity)
+>>>>>>> 177113b1f8a8cc4502662e387a8439cfcf3ee440

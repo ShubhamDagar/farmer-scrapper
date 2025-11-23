@@ -6,7 +6,19 @@ import os
 from flask import Flask, jsonify, request
 import time, os
 from utilites.plotting_test import plotting
+<<<<<<< HEAD
+=======
+import plotly.io as pio
+from flask_cors import CORS
+import requests
+
+>>>>>>> 177113b1f8a8cc4502662e387a8439cfcf3ee440
 app = Flask(__name__)
+CORS(
+    app,
+    resources={r"/*": {"origins": "http://localhost:3000"}},
+    supports_credentials=True
+)
 
 MANDI_ID_FILE = "mandi_ids.txt"
 
@@ -122,8 +134,8 @@ async def scrape_all():
     else:
         return jsonify({"message": "No data scraped"}), 500
     
-@app.route("/api")
-async def return_data():
+@app.get("/api")
+def return_data():
     directory = "./data/"
     files = os.listdir(directory)
     highest = max(files)
@@ -132,15 +144,26 @@ async def return_data():
 
     with open(directory + highest, "r", encoding="utf-8") as f:
         data = json.load(f)
-    
+
+    unique_combinations = set()
+    unique_data = []
+    for item in data:
+        unique_key = (item["commodity"], item["market_id"]
+                    #   , item["variety"]
+                      )
+
+        if unique_key not in unique_combinations:
+            unique_combinations.add(unique_key)
+            unique_data.append(item)
 
     return jsonify({
-        "data": data,
+        "data": unique_data,
         "timestamp" : ts
     })
 
 @app.post("/api/generate-charts")
 def generate_charts():
+<<<<<<< HEAD
     # data = request.json
     data = {"commodity": "Wheat",
       "state": "Punjab",
@@ -150,6 +173,16 @@ def generate_charts():
     market = data["market"]
     return plotting(commodity, state, market)
 
+=======
+    data = request.json
+    commodity = data["commodity"]
+    state = data["state"]
+    market = data["market"]
+    map_data = plotting(commodity, state, market)
+    print(map_data)
+
+    return json.dumps(map_data)
+>>>>>>> 177113b1f8a8cc4502662e387a8439cfcf3ee440
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(port=5002, debug=True)
