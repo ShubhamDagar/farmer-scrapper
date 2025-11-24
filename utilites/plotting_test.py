@@ -7,12 +7,8 @@ import os
 import plotly.graph_objs as go
 import plotly
 
-<<<<<<< HEAD
 list_of_files = glob.glob('../data/*.csv')
 
-=======
-list_of_files = glob.glob('./data/*.csv')
->>>>>>> 177113b1f8a8cc4502662e387a8439cfcf3ee440
 
 if list_of_files:
     latest_file = max(list_of_files, key=os.path.getctime)
@@ -47,7 +43,7 @@ def plot_price_history(df, commodity, state, market):
     filtered_df = df[
         (df['commodity'] == commodity) &
         (df['state'] == state) &
-        (df['market'] == market)
+        (df['market_id'] == market)
     ]
 
     if filtered_df.empty:
@@ -188,7 +184,7 @@ def generate_clean_india_map(df, commodity):
     df_with_data = df_merged.dropna(subset=['avgPrice'])
     print(f"DEBUG: df_with_data shape: {df_with_data.shape}")
     print(f"DEBUG: df_with_data columns: {df_with_data.columns}")
-    print(f"DEBUG: df_with_data['avgPrice'] head: {df_with_data['avgPrice'].head()}")
+    print(f"Shubham: df_with_data['avgPrice'] head: {df_with_data['avgPrice'].head()}")
     print(f"DEBUG: df_with_data['state'] head: {df_with_data['state'].head()}")
     
     fig.add_trace(go.Choropleth(
@@ -248,14 +244,9 @@ def pct_change(df, commodity, state, market):
     
 
 def plotting(commodity, state, market):
-<<<<<<< HEAD
-    pct=pct_change(df, commodity, state, market)
+    indianMap = generate_clean_india_map(df, commodity)
+    lineGraph = plot_price_history(df, commodity, state, market)
     return {
-        "line_chart": plot_price_history(df, commodity, state, market),
-        "map_chart": generate_clean_india_map(df, commodity),
-        "kpi": {"pct_change": round(pct,2)}
+        "indianMap": indianMap,
+        "priceLineGraph": lineGraph
     }
-=======
-    pct=0
-    return generate_clean_india_map(df, commodity)
->>>>>>> 177113b1f8a8cc4502662e387a8439cfcf3ee440
