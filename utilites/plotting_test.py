@@ -1,7 +1,6 @@
 import pandas as pd
 import plotly.express as px
 import json
-import requests
 import glob
 import os
 import plotly.graph_objs as go
