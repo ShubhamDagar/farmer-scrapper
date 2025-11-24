@@ -6,7 +6,7 @@ import os
 import plotly.graph_objs as go
 import plotly
 
-list_of_files = glob.glob('../data/*.csv')
+list_of_files = glob.glob('./data/*.csv')
 
 
 if list_of_files:
@@ -33,7 +33,8 @@ def plot_price_history(df, commodity, state, market):
         plotly.graph_objects.Figure: A Plotly line chart.
     """
     if df.empty:
-         return px.line(title="No Data Available", template="plotly_white")
+        fig = px.line(title="No Data Available", template="plotly_white")
+        return json.loads(json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder))
 
     # Ensure 'Date' column is in datetime format
     df['arrivalDate'] = pd.to_datetime(df['arrivalDate'])
