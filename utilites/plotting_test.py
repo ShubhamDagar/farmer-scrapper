@@ -43,7 +43,7 @@ def plot_price_history(df, commodity, state, market):
     filtered_df = df[
         (df['commodity'] == commodity) &
         (df['state'] == state) &
-        (df['market'] == market)
+        (df['market_id'] == market)
     ]
 
     if filtered_df.empty:
@@ -184,7 +184,7 @@ def generate_clean_india_map(df, commodity):
     df_with_data = df_merged.dropna(subset=['avgPrice'])
     print(f"DEBUG: df_with_data shape: {df_with_data.shape}")
     print(f"DEBUG: df_with_data columns: {df_with_data.columns}")
-    print(f"DEBUG: df_with_data['avgPrice'] head: {df_with_data['avgPrice'].head()}")
+    print(f"Shubham: df_with_data['avgPrice'] head: {df_with_data['avgPrice'].head()}")
     print(f"DEBUG: df_with_data['state'] head: {df_with_data['state'].head()}")
     
     fig.add_trace(go.Choropleth(
@@ -244,9 +244,13 @@ def pct_change(df, commodity, state, market):
     
 
 def plotting(commodity, state, market):
+<<<<<<< HEAD
     pct=pct_change(df, commodity, state, market)
+=======
+    indianMap = generate_clean_india_map(df, commodity)
+    lineGraph = plot_price_history(df, commodity, state, market)
+>>>>>>> 86527e98461ea11d0799ce79ffc95c3dc29f9327
     return {
-        "line_chart": plot_price_history(df, commodity, state, market),
-        "map_chart": generate_clean_india_map(df, commodity),
-        "kpi": {"pct_change": round(pct,2)}
+        "indianMap": indianMap,
+        "priceLineGraph": lineGraph
     }
