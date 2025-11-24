@@ -7,9 +7,9 @@ import os
 import plotly.graph_objs as go
 import plotly
 
-list_of_files = glob.glob('./data/*.csv')
+list_of_files = glob.glob('../data/*.csv')
 
-# Find the latest file based on creation time
+
 if list_of_files:
     latest_file = max(list_of_files, key=os.path.getctime)
     print(f"Using latest file: {latest_file}")
@@ -45,7 +45,6 @@ def plot_price_history(df, commodity, state, market):
         (df['state'] == state) &
         (df['market_id'] == market)
     ]
-    pct = 0
 
     if filtered_df.empty:
         print(f"No data found for Commodity: {commodity}, State: {state}, Market: {market}")
@@ -58,7 +57,6 @@ def plot_price_history(df, commodity, state, market):
     # Sort again by date ascending for correct plotting order
     latest_7_dates_df = latest_7_dates_df.sort_values(by='arrivalDate', ascending=True).reset_index(drop=True)
     latest_7_dates_df['avgPrice'] = latest_7_dates_df['avgPrice'].apply(get_num)
-
     # Create the Plotly line chart with a clean template
     fig = px.line(
         latest_7_dates_df,
@@ -67,7 +65,8 @@ def plot_price_history(df, commodity, state, market):
         title=f'Price History for {commodity} in {market}, {state} (Latest 7 Dates)',
         markers=True,
         labels={'arrivalDate': 'Date', 'avgPrice': 'Price (INR/Quintal)'},
-        template='plotly_white'  # Use a clean white template
+        template='plotly_white',
+        color_discrete_sequence=px.colors.qualitative.Pastel
     )
 
     # Enhance line and marker appearance
@@ -233,8 +232,18 @@ def get_num(text):
     except (IndexError, ValueError, AttributeError):
         return 0.0
 
+def pct_change(df, commodity, state, market):
+    filtered_df = df[
+        (df['commodity'] == commodity) &
+        (df['state'] == state) &
+        (df['market'] == market)
+    ].sort_values(by='arrivalDate', ascending=False).head(2)
+    filtered_df['avgPrice'] = filtered_df['avgPrice'].apply(get_num)
+    pct_change = (filtered_df.iloc[0]['avgPrice'] - filtered_df.iloc[1]['avgPrice']) / filtered_df.iloc[1]['avgPrice'] * 100
+    return pct_change
+    
+
 def plotting(commodity, state, market):
-    pct=0
     indianMap = generate_clean_india_map(df, commodity)
     lineGraph = plot_price_history(df, commodity, state, market)
     return {

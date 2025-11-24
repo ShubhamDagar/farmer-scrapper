@@ -19,9 +19,6 @@ CORS(
 
 MANDI_ID_FILE = "mandi_ids.txt"
 
-# ───────────────────────────────────────────────
-# Scrape one market
-# ───────────────────────────────────────────────
 async def scrape_market_prices(context, market_id: str):
     """Scrape mandi data for a single market ID."""
     url = f"https://www.commodityonline.com/mandiprices/market/{market_id}"
@@ -65,9 +62,6 @@ async def scrape_market_prices(context, market_id: str):
         await page.close()
 
 
-# ───────────────────────────────────────────────
-# Flask endpoint to trigger scraping
-# ───────────────────────────────────────────────
 @app.route("/scrape")
 async def scrape_all():
     """Flask endpoint to scrape all market pages from a list of string IDs."""
