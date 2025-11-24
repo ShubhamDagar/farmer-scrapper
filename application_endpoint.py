@@ -164,10 +164,9 @@ def generate_charts():
     commodity = data["commodity"]
     state = data["state"]
     market = data["market"]
-    map_data = plotting(commodity, state, market)
-    print(map_data)
+    plots = plotting(commodity, state, market)
 
-    return json.dumps(map_data)
+    return json.dumps(plots)
 
 if __name__ == "__main__":
     app.run(port=5002, debug=True)

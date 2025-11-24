@@ -1,6 +1,6 @@
 # Mandi-Data-Scraper
 scrape mandi data into a json api    
-hosted here: https://mandi-details-api.herokuapp.com/api
+hosted here: 
 
 ## how to run
 - run `node index.js` 
