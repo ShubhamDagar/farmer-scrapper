@@ -43,7 +43,7 @@ def plot_price_history(df, commodity, state, market):
     filtered_df = df[
         (df['commodity'] == commodity) &
         (df['state'] == state) &
-        (df['market'] == market)
+        (df['market_id'] == market)
     ]
     pct = 0
 
@@ -57,6 +57,7 @@ def plot_price_history(df, commodity, state, market):
 
     # Sort again by date ascending for correct plotting order
     latest_7_dates_df = latest_7_dates_df.sort_values(by='arrivalDate', ascending=True).reset_index(drop=True)
+    latest_7_dates_df['avgPrice'] = latest_7_dates_df['avgPrice'].apply(get_num)
 
     # Create the Plotly line chart with a clean template
     fig = px.line(
@@ -184,7 +185,7 @@ def generate_clean_india_map(df, commodity):
     df_with_data = df_merged.dropna(subset=['avgPrice'])
     print(f"DEBUG: df_with_data shape: {df_with_data.shape}")
     print(f"DEBUG: df_with_data columns: {df_with_data.columns}")
-    print(f"DEBUG: df_with_data['avgPrice'] head: {df_with_data['avgPrice'].head()}")
+    print(f"Shubham: df_with_data['avgPrice'] head: {df_with_data['avgPrice'].head()}")
     print(f"DEBUG: df_with_data['state'] head: {df_with_data['state'].head()}")
     
     fig.add_trace(go.Choropleth(
@@ -234,4 +235,9 @@ def get_num(text):
 
 def plotting(commodity, state, market):
     pct=0
-    return generate_clean_india_map(df, commodity)
+    indianMap = generate_clean_india_map(df, commodity)
+    lineGraph = plot_price_history(df, commodity, state, market)
+    return {
+        "indianMap": indianMap,
+        "priceLineGraph": lineGraph
+    }
