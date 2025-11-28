@@ -1,0 +1,63 @@
+anyio==4.11.0
+blinker @ file:///croot/blinker_1737448726027/work
+Bottleneck @ file:///home/task_176193794808509/conda-bld/bottleneck_1761937988290/work
+CacheControl==0.14.4
+cachetools==6.2.2
+certifi==2025.11.12
+cffi==2.0.0
+charset-normalizer==3.4.4
+click @ file:///croot/click_1754477934456/work
+cryptography==46.0.3
+exceptiongroup==1.3.0
+firebase_admin==7.1.0
+Flask @ file:///croot/flask_1756453126864/work
+flask-cors==6.0.1
+google-api-core==2.28.1
+google-auth==2.43.0
+google-cloud-core==2.5.0
+google-cloud-firestore==2.21.0
+google-cloud-storage==3.6.0
+google-crc32c==1.7.1
+google-resumable-media==2.8.0
+googleapis-common-protos==1.72.0
+greenlet==3.2.4
+grpcio==1.76.0
+grpcio-status==1.76.0
+h11==0.16.0
+h2==4.3.0
+hpack==4.1.0
+httpcore==1.0.9
+httpx==0.28.1
+hyperframe==6.1.0
+idna==3.11
+itsdangerous @ file:///croot/itsdangerous_1716533337253/work
+Jinja2 @ file:///croot/jinja2_1741710844255/work
+MarkupSafe @ file:///croot/markupsafe_1738584038848/work
+mkl-service==2.5.2
+mkl_fft @ file:///home/task_176159252575002/conda-bld/mkl_fft_1761592901585/work
+mkl_random @ file:///home/task_176159293813909/conda-bld/mkl_random_1761592952512/work
+msgpack==1.1.2
+narwhals @ file:///home/task_176000268477610/conda-bld/narwhals_1760003493528/work
+numexpr @ file:///home/task_176216559424661/conda-bld/numexpr_1762165604917/work
+numpy @ file:///home/task_176157872663408/conda-bld/numpy_and_numpy_base_1761579342634/work/dist/numpy-2.2.5-cp310-cp310-linux_x86_64.whl#sha256=fb5b85b589f86e6404be6a37347b98be70b32c4ae837bb26e1180e9f9a7fb718
+packaging @ file:///home/task_176104877067765/conda-bld/packaging_1761049113113/work
+pandas @ file:///home/task_176233228161209/conda-bld/pandas_1762332325727/work/dist/pandas-2.3.3-cp310-cp310-linux_x86_64.whl#sha256=cd4241f338dbf9922b2bc5a62ff6267574e607e9e9ea8b5efbba07b037c96f8f
+playwright==1.56.0
+plotly @ file:///croot/plotly_1756453278963/work
+proto-plus==1.26.1
+protobuf==6.33.1
+pyasn1==0.6.1
+pyasn1_modules==0.4.2
+pycparser==2.23
+pyee==13.0.0
+PyJWT==2.10.1
+python-dateutil @ file:///croot/python-dateutil_1716495738603/work
+pytz @ file:///croot/pytz_1752135852232/work
+requests==2.32.5
+rsa==4.9.1
+six @ file:///croot/six_1744271502820/work
+sniffio==1.3.1
+typing_extensions==4.15.0
+tzdata @ file:///croot/python-tzdata_1746123641790/work
+urllib3==2.5.0
+Werkzeug @ file:///croot/werkzeug_1737448706492/work
